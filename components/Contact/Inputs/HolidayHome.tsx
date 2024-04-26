@@ -36,7 +36,7 @@ function HolidayHome() {
         placeholder="Holiday home"
       >
         <MenuItem value={1} className="!pl-4">
-          Villa Relax
+          Villa Panorama
         </MenuItem>
       </Select>
     </FormControl>

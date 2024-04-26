@@ -1,12 +1,12 @@
 import { StaticImageData } from "next/image";
 
-import one from "@/public/assets/images/outside/main.jpg";
-import two from "@/public/assets/images/inside/pri/2.jpg";
-import three from "@/public/assets/images/inside/po/5.jpg";
-import four from "@/public/assets/images/inside/pri/8.jpg";
-import five from "@/public/assets/images/inside/po/4.jpg";
-import six from "@/public/assets/images/outside/11.jpg";
-import seven from "@/public/assets/images/outside/13.jpg";
+import one from "@/public/assets/images/outside/27.jpg";
+import two from "@/public/assets/images/inside/2.jpg";
+import three from "@/public/assets/images/inside/5.jpg";
+import four from "@/public/assets/images/inside/8.jpg";
+import five from "@/public/assets/images/inside/17.jpg";
+import six from "@/public/assets/images/outside/20.jpg";
+import seven from "@/public/assets/images/outside/15.jpg";
 import eight from "@/public/assets/images/outside/1.jpg";
 
 type LocationData = {

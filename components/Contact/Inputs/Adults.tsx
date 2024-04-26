@@ -48,6 +48,8 @@ function Adults() {
         <MenuItem value={12}>12</MenuItem>
         <MenuItem value={13}>13</MenuItem>
         <MenuItem value={14}>14</MenuItem>
+        <MenuItem value={14}>15</MenuItem>
+        <MenuItem value={14}>16</MenuItem>
       </Select>
     </FormControl>
   );

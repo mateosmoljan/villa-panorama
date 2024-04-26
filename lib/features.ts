@@ -56,7 +56,7 @@ type DataObject = {
   data: features[];
 };
 
-export const Features: features[]= [
+export const Features: features[] = [
   // Bathroom
   {
     icon: hairdryer,

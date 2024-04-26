@@ -13,7 +13,7 @@ function About() {
       <div className="container">
         <h1 className="flex justify-center font-arbutus text-3xl sm:text-4xl font-bold text-dark_blue_black">
           {/* {t("homepage_title")} */}
-          Villa Relax - Pula
+          Villa Panorama
         </h1>
         <div className="pt-10">
           <Markdown>{a("des")}</Markdown>
