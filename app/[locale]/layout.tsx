@@ -18,8 +18,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "Villa Relax",
-  description: "Experience world-class service at Villa Relax",
+  title: "Villa Panorama",
+  description: "Experience world-class service at Villa Panorama - Istria",
   icons: {
     icon: "/assets/images/logo.png",
   },
