@@ -15,8 +15,8 @@ import itData from "@/messages/it.json";
 export const Categorization: categorization[] = [
   { value: "⭐⭐⭐⭐⭐" },
   { value: "16 persons" },
-  { value: "500 m²" },
-  { value: "2000 m²" },
+  { value: "520 m²" },
+  { value: "2500 m²" },
 ];
 
 const replaceCategorization = (data: categorization[], title: string[]) => {
