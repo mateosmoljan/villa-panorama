@@ -1,0 +1,320 @@
+{
+  "Titles": {
+    "homepage_title": "Vila Relax - Pula",
+    "Villa_Relax": "Vila za odmor Vila Relax",
+    "Villa_Map_Location": "Lokacija na karti",
+    "Availability_Calendar": "Kalendar raspoloživosti",
+    "Availability_Appointments_sub": "DOSTUPNI TERMINI",
+    "Price_list": "Cjenik Vila Relax",
+    "Photogallery": "Fotogalerija Vila Relax, Pula",
+    "Surrondings": "Pula i okolica",
+    "Surrondings_sub": "PULA & ISTRA"
+  },
+  "Buttons": {
+    "Show_Gallery": "Prikaži galeriju"
+  },
+  "Navigation": {
+    "navlinks": ["Vila Relax", "Cjenik", "Fotogalerija", "Okolina", "Kontakt"],
+    "navLinksButton": "Rezerviraj"
+  },
+
+  "HeaderSwiper": {
+    "titles": [
+      "Dobrodošli u Vilu Relax - Pula",
+      "Rajski jacuzzi",
+      "Ognjište za bijeg",
+      "Moderan dizajn i prostrani blagovaonski stol",
+      "Elegantni stolni nogometni stol",
+      "Dobrodošli ulaz",
+      "Aqua oaza",
+      "Mirni bazen pod zvijezdama"
+    ],
+    "descriptions": [
+      "Tranquil Oasis Vila",
+      "Uživajte u ultimativnom doživljaju opuštanja dok se opuštate u jacuzziju",
+      "Ugodno utočište gdje vam prigušene vatre i toplina pružaju zagrljaj, pozivajući vas na opuštanje i mirnost usred nježnog sjaja plamenih iskri.",
+      "Uživajte u ugodnim okupljanjima oko velikog blagovaonskog stola",
+      "Opuštanje uz partiju nogometa na elegantnom stolnom nogometu",
+      "Elegantni ulaz koji besprijekorno spaja moderan dizajn i gostoljubivu atmosferu, pozivajući vas da se opustite sa stilom.",
+      "Moderan odmor s privatnim bazenom, usađen u zagrljaju prirode",
+      "Mirni bazen pod zvijezdama"
+    ],
+    "button": "Saznajte više"
+  },
+
+  "About": {
+    "title": "Pregled",
+    "des": "Vila se nalazi u mirnoj ulici turističkog naselja grada Pule. Udaljena je 900 m od mora. Prva glavna plaža Verudela je odlična, udaljena samo 3 minute vožnje. Kafić je udaljen 20 metara, a trgovina 100 metara od kuće. Kuća je izuzetno udobna i stilski namještena, prilagođena modernom načinu života. Dostupna je za 14 osoba + 2 dodatna kreveta. Unutarnji prostor zauzima 500 četvornih metara, a 2000 četvornih metara prirodne parcele pruža dodatnu atmosferu. Na travnjaku se nalaze nogometni golovi, trampolin, ljuljačka i ognjište.",
+    "guest_access": {
+      "title": "Pristup gostima",
+      "des": "Jacuzzi, sauna, fitness, bicikli, karaoke, bilijar, nogomet, strelice."
+    },
+    "locations": {
+      "title": "Što posjetiti i vidjeti:",
+      "des": [
+        "- Vodeni zabavni park Aquacolors.",
+        "- Istražite prekrasne otoke Nacionalnog parka Brijuni, bogate prirodnom ljepotom i kulturnom baštinom.",
+        "- Otkrijte drevni rimski amfiteatar u Puli, jedan od najbolje očuvanih rimskih amfiteatara na svijetu.",
+        "- Zaronite u podvodni svijet u Akvariju Pula, smještenom blizu centra grada. Istražite različite morske habitate, promatrajte raznolike morske vrste i saznajte o važnosti očuvanja mora.",
+        "- Doživite uzbudljive tobogane, spore rijeke i opuštajuće bazene u akvaparku Istralandia, smještenom blizu Novigrada. Savršeno za obitelji i ljubitelje vode, ovaj akvapark nudi zabavan dan za sve uzraste."
+      ]
+    }
+  },
+  "Distances": {
+    "title": "Udaljenosti od Ville Relax",
+    "button": "Prikaži kartu",
+    "place": [
+      "More",
+      "Plaža",
+      "Trgovina prehrambenim proizvodima",
+      "Restoran",
+      "Banka / Bankomat",
+      "Ljekarna",
+      "Bolnica / Dom zdravlja",
+      "Pošta",
+      "Benzinska postaja",
+      "Sportski tereni",
+      "Željeznička stanica",
+      "Zračna luka"
+    ]
+  },
+  "Acommodation": {
+    "subtitle": "SMJEŠTAJ",
+    "title": "Nudimo vam 1 vilu",
+    "card_title": "Villa Relax",
+    "card_des": "Maksimalno 16 osoba",
+    "card_des2": "Cijena od",
+    "card_des3": "po noći"
+  },
+  "Photogalleries": {
+    "subtitle": "FOTOGALERIJE",
+    "title": "Odaberite fotografije iz Ville Relax",
+    "button": "Prikaži fotogaleriju"
+  },
+  "Tourist_Guide": {
+    "subtitle": "TURISTIČKI VODIČ",
+    "title": "Što posjetiti, vidjeti i raditi?",
+    "image_des": [
+      "Najveći u Hrvatskoj",
+      "Nacionalni park",
+      "Vodeni park",
+      "Događaji",
+      "Vodeni park",
+      "skakanje s plaže/stijena"
+    ]
+  },
+  "Send_Message": {
+    "des": "Molimo **pošaljite** nam odgovor ako želite pripadati Villi Relax u Puli i osigurati svoju rezervaciju?",
+    "button": "Pošaljite poruku"
+  },
+  "Footer": {
+    "year": "©2024 . Villa Relax - Pula",
+    "rights": "Sva prava pridržana",
+    "Discover": {
+      "title": "Otkrijte",
+      "list": {
+        "Pula": "Pula Info",
+        "Guide": "Turistički vodič Istra"
+      }
+    },
+    "Contact_Us": {
+      "title": "Kontaktirajte nas"
+    }
+  },
+  "Categorization": {
+    "title": ["Kategorizacija", "Kapacitet", "Veličina", "Vrt"]
+  },
+  "Villa_Description": {
+    "des": "Villa se nalazi u mirnoj ulici turističkog naselja grada Pule. Udaljena je 900 m od mora. Prva glavna plaža Verudela izvrsna je, udaljena samo 3 minute vožnje. Kafić je udaljen 20 metara, a trgovina je udaljena 100 metara od kuće. Kuća je izuzetno udobna i stilski namještena, prilagođena modernom načinu života. Dostupna je za 14 osoba + 2 pomoćna kreveta. Unutarnji prostor zauzima 500 četvornih metara i 2000 četvornih metara prirodnog zemljišta, što pruža dodatnu atmosferu. Travnjak ima nogometne golove, trampolin, ljuljačku i kamin.",
+    "subtitle": "Prostor",
+    "des2": "Na prizemlju objekta nalazi se prostrani dnevni boravak s kuhinjom i blagovaonicom modernog dizajna, koji vodi na veliku terasu od 100 četvornih metara gdje se nalaze vrtni namještaj i paviljon. Također na prizemlju je wellness zona, s koje se pruža pogled na bazen, terase i zelenilo kroz velike staklene zidove. Bazen je veličine 48 četvornih metara, s plitkim područjem za djecu (0,5 metara duboko) i dubljim područjem za odrasle (1,5 metara duboko), opremljen hidromasažom. Područje aktivnosti prostire se kroz cijelo podrum kuće, s dodatnom kuhinjom i kaminom koji upotpunjuje doživljaj. U podrumu, nalazi se i garaža s 2 parkirna mjesta i 6 bicikala za gradsku vožnju, dok potpuno ograđeno zemljište nudi još 4 parkirna mjesta. Na gornjem katu kuće, nalazi se studij, 4 spavaće sobe s kupaonicama, svaka s pristupom terasi, i 1 potkrovlje. Kuća je klimatizirana, a sve sobe imaju centralno grijanje. Osim unutarnjeg stubišta, katovi su povezani dizalom. Velike natkrivene terase dodatno ističu ovu nekretninu. Kuća se nalazi blizu marine, kao i svih ostalih zanimljivih sadržaja, uključujući centar antičke Pule, koji obiluje kulturnim i povijesnim znamenitostima.",
+    "subtitle2": "Pristup gostima",
+    "des3": "Gosti mogu koristiti 6 spavaćih soba, 2 dnevna boravka, 2 kuhinje, 8 kupaonica, balkone, terasu, prostoriju za ljepotu, igraonicu/ljetnu kuhinju, prostoriju s perilicom rublja i glačalom, bazen, travnjak, vrt, dječje igralište i cijeli vanjski prostor."
+  },
+  "Villa_Features": {
+    "title": "Features",
+    "title2": "What this place offers",
+    "title3": "Bathroom",
+    "title4": "Bedroom and laundry",
+    "title5": "Entertainment",
+    "title6": "Family",
+    "title7": "Heating and cooling",
+    "title8": "Home safety",
+    "title9": "Internet and office",
+    "title10": "Kitchen and dining",
+    "title11": "Outdoor",
+    "title12": "Parking and facilities",
+    "title13": "Services",
+    "title14": "Not included",
+    "button": "Show all 43 amenities",
+    "card": {
+      "title": [
+        "Hair dryer",
+        "Hot water",
+        "Washer",
+        "Dryer",
+        "Essentials",
+        "Hangers",
+        "Bed linens",
+        "Extra pillows and blankets",
+        "Room-darkening shades",
+        "Iron",
+        "TV with standard cable",
+        "Crib",
+        "Children’s books and toys",
+        "High chair",
+        "Fireplace guards",
+        "Window guards",
+        "Outlet covers",
+        "Baby safety gates",
+        "Table corner guards",
+        "Air conditioning",
+        "Indoor fireplace",
+        "Heating",
+        "Fire extinguisher",
+        "First aid kit",
+        "Wifi",
+        "Kitchen",
+        "Refrigerator",
+        "Microwave",
+        "Cooking basics",
+        "Dishes and silverware",
+        "Dishwasher",
+        "Stove",
+        "Oven",
+        "Coffee maker",
+        "Baking sheet",
+        "Barbecue utensils",
+        "Backyard",
+        "Free parking on premises",
+        "Pool",
+        "Luggage dropoff allowed",
+        "Smoking allowed",
+        "Long term stays allowed",
+        "Host greets you",
+        "Smoke alarm",
+        "Carbon monoxide alarm"
+      ],
+      "des": [
+        "",
+        "",
+        "",
+        "",
+        "Towels, bed sheets, soap, and toilet paper",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Space where guests can cook their own meals",
+        "",
+        "",
+        "Pots and pans, oil, salt and pepper",
+        "Bowls, chopsticks, plates, cups, etc.",
+        "",
+        "",
+        "",
+        "",
+        "",
+        "Grill, charcoal, bamboo skewers/iron skewers, etc.",
+        "An open space on the property usually covered in grass",
+        "",
+        "",
+        "For guests' convenience when they have early arrival or late departure",
+        "",
+        "Allow stay for 28 days or more",
+        "",
+        "There is no smoke alarm on the property.",
+        "There is no carbon monoxide detector on the propert"
+      ]
+    }
+  },
+  "Pricelist": {
+    "title": "Pricelist",
+    "subtitle": "*The price refers to the period of 7 nights in Euros"
+  },
+  "Payment_conditions": {
+    "subtitle": "TERMS & CONDITIONS",
+    "title": "Payment and booking conditions",
+    "des2": "To secure your reservation, it is obligatory to pay 50% of the full price in advance directly to the owner of the accommodation, and the remaining 50% upon arrival at the accommodation unit.",
+    "des3": "A refundable deposit of 500 euros is required if everything is in order.",
+    "des4": "Free cancellation is possible within one week after booking (EXCEPT FOR LAST MINUTE RESERVATIONS, THEN THE DEADLINE IS 48 HOURS). Last-minute reservations are made two weeks before the intended stay.",
+    "des5": "On the last day of the stay, guests are required to vacate the accommodation by 10 am, allowing other guests to check in from 4 pm.",
+    "des6": "Please note that pets are not permitted on the premises.",
+    "title2": "Payment methods:"
+  },
+  "Villa_BookStay": {
+    "des": "from",
+    "des2": "per night",
+    "button": "Book Your Stay"
+  },
+  "How_Reserve": {
+    "subtitle": "SECURE RESERVATION",
+    "title": "How do I reserve",
+    "steps": {
+      "title": "Send us an inquiry",
+      "des": "Please send us an inquiry via the contact form, email, or phone with all the required information and the period you wish to spend a vacation in the holiday home Villa Eni. Expect a fast email response and our best offer.",
+      "title2": "Securing reservation (payment)",
+      "des2": "To secure your reservation, it is obligatory to pay 50% of the full amount in advance and the rest of the amount on the day of arrival. After making the payment, please notify us, and we will send you a confirmation of payment and booking. There are two options for making the advance payment: bank transfer and PayPal (debit and credit cards).",
+      "subtitle": "Bank Transfer",
+      "span": "Account owner",
+      "span2": "Address",
+      "span3": "Bank",
+      "title3": "Confirmation of payment",
+      "des3": "Once payment is made, we will confirm your payment and reservation. Relax and await your vacation peacefully in the summer and enjoy your vacations in the holiday home Villa Relax, Istria - Croatia!"
+    }
+  },
+  "Environs": {
+    "title": "Pula & Istria",
+    "des": "In our neighborhood, there are many restaurants such as \"Volaria\" and the Fishermen's Hut in Marina Veruda, offering a rich seafood menu, Pizzeria Jupiter, Boccaporta restaurant offering traditional Istrian cuisine, as well as Pivnica na Rivi. You can rent bicycles, mopeds, boats, cars, etc. On the main beach Verudela, you can rent a sports field for mini-golf and badminton, tennis, surfing, and even a parasailing boat or a small airplane. There is also a diving club. Similarly, at Verudela, there is Bunarina, from where a boat departs every hour to Fratarski Island. Boat excursions: Brijuni Islands (National Park) - departure by boat from the town of Fažana, 5 km away from Pula, Journey to Green and Blue Istria (Wine Road - wine tasting, agritourism). Rovinj is 30 km away from Pula, where you can see Croatia in miniature and visit a large aquarium. The Feštinsko Kraljevstvo near Pula (interesting cave), Entertainment center in Pula Green Garden (paintball, karting), Barrel Equestrian Club in Pula, Nightlife: disco Pietas, disco Uljanik, disco Cargo, Terrace with live music at Verudela and Zlatne Stijene, Events: At the Forum, the main city square (traditional and modern dances as well as live music, and at the Arena Amphitheater (concerts, film festivals).",
+    "button": "Show Map",
+    "title2": "Getting around",
+    "des2": "You can reach the villa by car or taxi. Parking is free and available on site.",
+    "subtitle": "Attractions nearby"
+  },
+  "PriceTable": {
+    "title": "Period",
+    "title2": "Price*",
+    "title3": "Persons",
+    "title4": "Min. Stay"
+  },
+  "Contact": {
+    "title": "Contact us",
+    "Contact_Form": {
+      "name": "Name",
+      "email": "Email",
+      "phone": "Phone",
+      "home": "Holiday home",
+      "adults": "Adults",
+      "children": "Children",
+      "arrival": "Arrival",
+      "departure": "Departure",
+      "message": "Inquiry",
+      "des": "The content of this form will be sent directly to the email address of the owner of the accommodation and is used exclusively for sending inquiries about booking the listed property.",
+      "button": "Send Inquiry",
+      "sent": "Successfully sent"
+    },
+    "Contact_Info": {
+      "contact_person": "Contact Person",
+      "mobile": "Mobile",
+      "email": "Email",
+      "address": "Address",
+      "we_speak": "We Speak"
+    }
+  }
+}

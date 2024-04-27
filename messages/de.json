@@ -1,21 +1,21 @@
 {
   "Titles": {
-    "homepage_title": "Villa Relax - Pula",
-    "Villa_Relax": "Ferienhaus Villa Relax",
-    "Villa_Map_Location": "Lage auf der Karte",
+    "homepage_title": "Villa Panorama - Istrien",
+    "Villa_Panorama": "Ferienhaus Villa Panorama",
+    "Villa_Map_Location": "Standort auf der Karte",
     "Availability_Calendar": "Verfügbarkeitskalender",
     "Availability_Appointments_sub": "VERFÜGBARE TERMINE",
-    "Price_list": "Preisliste Villa Relax",
-    "Photogallery": "Fotogalerie Villa Relax, Pula",
-    "Surrondings": "Pula und Umgebung",
-    "Surrondings_sub": "PULA & ISTRIEN"
+    "Price_list": "Preisliste Villa Panorama",
+    "Photogallery": "Fotogalerie Villa Panorama, Istrien",
+    "Surrondings": "Gajana und Umgebung",
+    "Surrondings_sub": "GAJANA & ISTRIEN"
   },
   "Buttons": {
     "Show_Gallery": "Galerie anzeigen"
   },
   "Navigation": {
     "navlinks": [
-      "Villa Relax",
+      "Villa Panorama",
       "Preisliste",
       "Fotogalerie",
       "Umgebung",
@@ -26,34 +26,39 @@
 
   "HeaderSwiper": {
     "titles": [
-      "Willkommen in der Villa Relax - Pula",
+      "Willkommen in der Villa Panorama - Istrien",
       "Jacuzzi-Paradies",
-      "Kamin-Rückzugsort",
+      "Rustikaler Kaminrückzugsort",
       "Modernes Design und geräumiger Esstisch",
-      "Stilvolles Billardzimmer",
+      "Stilvoller Billardtisch-Rückzugsort",
       "Willkommenseingang",
-      "Aqua-Himmel",
-      "Serenes Schwimmbad unter den Sternen"
+      "Aqua-Hafen",
+      "Ruhiger Swimmingpool unter den Sternen"
     ],
     "descriptions": [
       "Ruhige Oase Villa",
-      "Gönnen Sie sich das ultimative Entspannungserlebnis, während Sie im Jacuzzi entspannen",
-      "Gemütlicher Rückzugsort, an dem knisternde Flammen und Wärme Sie umarmen und zur Entspannung und Ruhe einladen, während das sanfte Glühen flackernder Glut Sie umgibt.",
-      "Genießen Sie gemütliche Zusammenkünfte am großzügig dimensionierten Esstisch",
-      "Entspannen Sie sich bei einer Partie Billard auf dem eleganten Billardtisch",
-      "Eleganter Eingang, der modernes Design und einladende Atmosphäre nahtlos verbindet und Sie dazu einlädt, stilvoll zu entspannen.",
+      "Genießen Sie das ultimative Entspannungserlebnis, während Sie im Jacuzzi entspannen",
+      "Erleben Sie die Wärme und den Charme des traditionellen istrischen 'Kažun'-Kamins in der Villa Panorama, wo gemütliche Abende in rustikaler Ruhe verbracht werden.",
+      "Genießen Sie gemütliche Zusammenkünfte um den großzügig dimensionierten Esstisch",
+      "Entspannen Sie sich bei einem Spiel Billard auf dem eleganten Billardtisch",
+      "Eleganter Eingang, der modernes Design und einladende Atmosphäre nahtlos miteinander verbindet und Sie stilvoll zum Entspannen einlädt.",
       "Ein moderner Rückzugsort mit privatem Pool, eingebettet in die Umarmung der Natur",
-      "Serenes Schwimmbad unter den Sternen"
+      "Ruhiger Swimmingpool unter den Sternen"
     ],
-    "button": "Mehr lesen"
+    "button": "Mehr erfahren"
   },
 
   "About": {
     "title": "Übersicht",
-    "des": "**Die Villa** befindet sich in einer ruhigen touristischen Siedlungsstraße der Stadt **Pula**. Sie ist **900 m** vom **Meer** entfernt. Der erste Hauptstrand Verudela ist ausgezeichnet, nur 3 Autominuten entfernt. Ein Café befindet sich 20 Meter entfernt und ein Geschäft 100 Meter vom Haus entfernt. Das Haus ist äußerst komfortabel und stilvoll eingerichtet, angepasst an die moderne Lebensweise. Es ist für 14 Personen + 2 Zustellbetten verfügbar. Der Innenraum umfasst 500 Quadratmeter und 2000 Quadratmeter Naturgrundstück, was zusätzliche Atmosphäre bietet. Der Rasen verfügt über **Fußballtore**, ein Trampolin, eine Schaukel und einen **Kamin**.",
+    "des": "Wunderschönes Ferienhaus Villa Panorama Istrien umgeben von Natur. Ein idealer Ort zum Ausruhen für alle Liebhaber von Frieden, Ruhe und Natur. Die Villa mit einer Fläche von 520 Quadratmetern befindet sich auf einem Grundstück von 2500 m². Sie haben einen wunderschönen Garten und eine große Rasenfläche zur Verfügung, um zu spielen und sich zu unterhalten (Trampolin, Fußballtore). Die Villa ist sorgfältig eingerichtet, mit qualitativ hochwertigen Möbeln und großer Liebe zum Detail. Traditionelle und moderne Elemente verschmelzen zu einem interessanten Ganzen.",
+    "the_space": {
+      "title": "Der Raum",
+      "des": "Vor der Villa befindet sich eine geräumige Sommerküche mit einem Holzkamin, der als Ess- und Unterhaltungsbereich dient (Tischfußball, Piccado und Billard). Außerdem gibt es einen Arbeitsraum und ein Badezimmer. Neben der Sommerküche befindet sich ein 68 Quadratmeter großer Swimmingpool mit Massagedüsen und einem Wasserfall. Eine traditionelle Spezialität ist eine in Stein gebaute istrische Kappe. Sie besteht aus einer Feuerstelle zum Grillen oder Backen. Besonders attraktiv ist die große Terrasse, die sich auf einer Seite der Villa mit Blick auf das Meer und die umliegenden Grünflächen erstreckt, was sie auch zu einem idealen Ort zum Essen und Ausruhen macht.",
+      "des2": "Die Villa besteht aus einem geräumigen Wohnzimmer, einer voll ausgestatteten Küche, 7 charmanten Schlafzimmern mit Badezimmern, Klimaanlage und TV. Heizung in jedem Zimmer mit Heizkörpern. Alle Zimmer sind klimatisiert. Neben der Villa gibt es einen Wellnessbereich (Sauna, Whirlpool, Trainingsgeräte). Es gibt auch eine Garage mit 2 Parkplätzen und 8 Fahrrädern. Der Parkplatz bietet die Möglichkeit für mehr als ein Dutzend Parkplätze."
+    },
     "guest_access": {
       "title": "Zugang für Gäste",
-      "des": "Whirlpool, Sauna, Fitness, Fahrräder, Karaoke, Billard, Fußball, Darts, Trampolin."
+      "des": "Jacuzzi, Sauna, Fitness, Fahrräder, Karaoke, Billard, Tischfußball, Darts, Trampolin."
     },
     "locations": {
       "title": "Was zu sehen und zu besuchen ist:",
@@ -61,13 +66,14 @@
         "- Der Wasservergnügungspark Aquacolors.",
         "- Erkunden Sie die wunderschönen Inseln des Nationalparks Brijuni, reich an natürlicher Schönheit und kulturellem Erbe.",
         "- Entdecken Sie das antike römische Amphitheater in Pula, eines der am besten erhaltenen römischen Amphitheater der Welt.",
-        "- Tauchen Sie ein in die Unterwasserwelt im Pula Aquarium, das sich in der Nähe des Stadtzentrums befindet. Erkunden Sie verschiedene Meereslebensräume, beobachten Sie verschiedene aquatische Arten und erfahren Sie mehr über die Bedeutung des Meeresschutzes.",
-        "- Erleben Sie aufregende Wasserrutschen, faule Flüsse und entspannende Pools im Istralandia Aquapark, der sich in der Nähe von Novigrad befindet. Perfekt für Familien und Wassersportbegeisterte bietet dieser Aquapark einen unterhaltsamen Tag für alle Altersgruppen."
+        "- Tauchen Sie ein in die Unterwasserwelt im Pula Aquarium, das sich in der Nähe des Stadtzentrums befindet. Erkunden Sie verschiedene marine Lebensräume, beobachten Sie vielfältige aquatische Arten und erfahren Sie mehr über die Bedeutung des Meeresschutzes.",
+        "- Erleben Sie aufregende Wasserrutschen, gemütliche Flüsse und entspannende Pools im Istralandia Aquapark, der sich in der Nähe von Novigrad befindet. Perfekt für Familien und Wasserliebhaber bietet dieser Aquapark einen unterhaltsamen Tag für alle Altersgruppen."
       ]
     }
   },
+
   "Distances": {
-    "title": "Entfernungen von Villa Relax",
+    "title": "Entfernungen von der Villa Panorama",
     "button": "Karte anzeigen",
     "place": [
       "Meer",
@@ -84,37 +90,38 @@
       "Flughafen"
     ]
   },
+
   "Acommodation": {
     "subtitle": "UNTERKUNFT",
     "title": "Wir bieten Ihnen 1 Villa",
-    "card_title": "Villa Relax",
+    "card_title": "Villa Panorama",
     "card_des": "Maximal 16 Personen",
     "card_des2": "Preis ab",
     "card_des3": "pro Nacht"
   },
   "Photogalleries": {
     "subtitle": "FOTOGALERIEN",
-    "title": "Wählen Sie Fotos von Villa Relax aus",
+    "title": "Wählen Sie Fotos aus der Villa Panorama aus",
     "button": "Fotogalerie anzeigen"
   },
   "Tourist_Guide": {
     "subtitle": "TOURISTENFÜHRER",
-    "title": "Was zu besichtigen, sehen und tun?",
+    "title": "Was zu besuchen, sehen und tun?",
     "image_des": [
       "Der größte in Kroatien",
       "Nationalpark",
       "Wasserpark",
       "Veranstaltungen",
       "Wasserpark",
-      "Strand-/Klippen-Springen"
+      "Strand-/Klippenpringen"
     ]
   },
   "Send_Message": {
-    "des": "Bitte **senden Sie uns eine** Antwort, wenn Sie zur Villa Relax in Pula gehören möchten und Ihre Reservierung sichern möchten?",
+    "des": "Bitte senden Sie uns eine Antwort, wenn Sie zur Villa Panorama in Istrien gehören möchten und Ihre Reservierung sichern möchten?",
     "button": "Nachricht senden"
   },
   "Footer": {
-    "year": "©2024 . Villa Relax - Pula",
+    "year": "©2024 . Villa Panorama - Istrien",
     "rights": "Alle Rechte vorbehalten",
     "Discover": {
       "title": "Entdecken",
@@ -124,53 +131,53 @@
       }
     },
     "Contact_Us": {
-      "title": "Kontaktieren Sie uns"
+      "title": "Kontaktiere uns"
     }
   },
   "Categorization": {
     "title": ["Kategorisierung", "Kapazität", "Größe", "Garten"]
   },
   "Villa_Description": {
-    "des": "Die Villa befindet sich in einer ruhigen touristischen Siedlungsstraße der Stadt Pula. Sie ist 900 m vom Meer entfernt. Der erste Hauptstrand Verudela ist ausgezeichnet, nur 3 Autominuten entfernt. Ein Café befindet sich 20 Meter entfernt und ein Geschäft 100 Meter vom Haus entfernt. Das Haus ist äußerst komfortabel und stilvoll eingerichtet, angepasst an moderne Lebensweise. Es bietet Platz für 14 Personen + 2 Zustellbetten. Der Innenraum umfasst 500 Quadratmeter und das Naturgrundstück 2000 Quadratmeter, was zusätzliche Atmosphäre bietet. Der Rasen verfügt über Fußballtore, ein Trampolin, eine Schaukel und einen Kamin.",
+    "des": "Die Luxusvilla aus Stein befindet sich in Gajana, einem ruhigen Ort in der Nähe von Vodnjan (Dignano). Diese 7-Schlafzimmer-Villa (mit eigenem Bad in jedem Schlafzimmer) ist perfekt für Naturliebhaber, die sich gerne fernab vom Stadtlärm entspannen. Sie hat ihren Gästen viel zu bieten.",
     "subtitle": "Der Raum",
-    "des2": "Im Erdgeschoss des Anwesens befindet sich ein geräumiger Wohnbereich mit einer Küche und einem Esszimmer im modernen Design, die zu einer großen Terrasse von 100 Quadratmetern führt, auf der sich Gartenmöbel und ein Pavillon befinden. Auch im Erdgeschoss befindet sich ein Wellnessbereich, von dem aus durch große Glaswände ein Blick auf den Pool, die Terrassen und das Grün geboten wird. Der Pool ist 48 Quadratmeter groß, mit einem flachen Bereich für Kinder (0,5 Meter tief) und einem tieferen Bereich für Erwachsene (1,5 Meter tief), ausgestattet mit Hydromassage. Der Aktivitätsbereich erstreckt sich durch den gesamten Keller des Hauses, mit einer zusätzlichen Küche und einem Kamin, der das Erlebnis ergänzt. Im Keller befindet sich auch eine Garage mit 2 Parkplätzen und 6 Fahrrädern für Stadtfahrten, während das vollständig umzäunte Grundstück weitere 4 Parkplätze bietet. Im Obergeschoss des Hauses befindet sich ein Arbeitszimmer, 4 Schlafzimmer mit Badezimmern, jeweils mit Zugang zu einer Terrasse, und 1 Dachzimmer. Das Haus ist klimatisiert, und alle Zimmer haben eine Zentralheizung. Neben der internen Treppe sind die Stockwerke durch einen Aufzug miteinander verbunden. Große überdachte Terrassen unterscheiden dieses Anwesen weiterhin. Das Haus befindet sich in der Nähe des Yachthafens sowie aller anderen interessanten Annehmlichkeiten, einschließlich des Zentrums des antiken Pula, das reich an kulturellen und historischen Sehenswürdigkeiten ist.",
+    "des2": "Es gibt einen Außenpool (68 m2) mit der Möglichkeit einer Luftmassage und eines Wasserfalls an der Seite des Pools. Ein geräumiger Rasen bietet einen Spielplatz für Kinder mit Trampolin und Fußballtoren. Neben dem Pool befindet sich eine Nachbildung eines alten istrischen Hauses namens \"Kazun\", das Grillmöglichkeiten bietet. Die schöne Terrasse ist ein perfekter Ort, um Ihre Mahlzeit zu genießen. Ein weiterer Ort zum Essen ist eine Sommerküche, die sich in einem Spielzimmer mit Darts, Billardtisch und Tischfußball befindet. Neben der Villa befindet sich ein Beauty-Raum mit Sauna, Whirlpool und Trainingsgeräten. Die Villa verfügt über ein Überwachungssystem, das die Umgebung der Villa aufzeichnet und die Sicherheit ihrer Gäste gewährleistet. Die Villa bietet Platz für 16 Personen. In der Villa gibt es 7 Schlafzimmer. In 3 Schlafzimmern gibt es Kingsize-Betten, und jedes davon bietet Platz für 2 Personen. In den anderen Schlafzimmern (4 Stück) befinden sich jeweils 2 Einzelbetten. Jemand kann auch auf den Sofas im Wohnzimmer schlafen, wenn er möchte.",
     "subtitle2": "Zugang für Gäste",
-    "des3": "Die Gäste haben Zugang zu 6 Schlafzimmern, 2 Wohnzimmern, 2 Küchen, 8 Badezimmern, Balkonen, Terrassen, Schönheitsraum, Spielzimmer/Sommerküche, einem Raum mit Waschmaschine und Bügeleinrichtungen, Swimmingpool, Rasen, Garten, Kinderspielplatz und gesamtem Außenbereich."
+    "des3": "Die Gäste haben Zugang zu 7 Schlafzimmern, 2 Wohnzimmern, 2 Küchen, 9 Badezimmern + einem separaten WC, Balkonen, Terrasse, Beauty-Raum, Spielzimmer/Sommerküche, \"Kazun\" mit Grillmöglichkeiten, einem Raum mit Waschmaschine und Bügeleisen, Swimmingpool, Rasen, Garten, Spielplatz für Kinder und gesamtem Außenbereich (2500 m2)."
   },
   "Villa_Features": {
-    "title": "Merkmale",
+    "title": "Eigenschaften",
     "title2": "Was dieser Ort bietet",
     "title3": "Badezimmer",
-    "title4": "Schlafzimmer und Wäscherei",
+    "title4": "Schlafzimmer und Wäsche",
     "title5": "Unterhaltung",
     "title6": "Familie",
-    "title7": "Heizen und Kühlen",
+    "title7": "Heizung und Kühlung",
     "title8": "Sicherheit zu Hause",
     "title9": "Internet und Büro",
     "title10": "Küche und Essbereich",
     "title11": "Im Freien",
     "title12": "Parken und Einrichtungen",
     "title13": "Dienstleistungen",
-    "title14": "Nicht inbegriffen",
+    "title14": "Nicht enthalten",
     "button": "Alle 43 Annehmlichkeiten anzeigen",
     "card": {
       "title": [
         "Haartrockner",
-        "Heißwasser",
+        "Warmwasser",
         "Waschmaschine",
         "Trockner",
         "Essentials",
-        "Kleiderbügel",
+        "Bügel",
         "Bettwäsche",
         "Zusätzliche Kissen und Decken",
-        "Verdunkelungsvorhänge",
+        "Rollläden",
         "Bügeleisen",
         "TV mit Standardkabel",
-        "Kinderbett",
+        "Babybett",
         "Kinderbücher und Spielzeug",
-        "Hochstuhl",
-        "Kaminwachen",
-        "Fensterschutzgitter",
+        "Kinderhochstuhl",
+        "Kaminschutzgitter",
+        "Fenstersicherungen",
         "Steckdosenabdeckungen",
         "Baby-Sicherheitstore",
         "Tischkantenschützer",
@@ -187,7 +194,7 @@
         "Geschirr und Besteck",
         "Geschirrspüler",
         "Herd",
-        "Ofen",
+        "Backofen",
         "Kaffeemaschine",
         "Backblech",
         "Grillutensilien",
@@ -196,8 +203,8 @@
         "Pool",
         "Gepäckaufbewahrung erlaubt",
         "Rauchen erlaubt",
-        "Langzeitmieten erlaubt",
-        "Gastgeber begrüßt Sie",
+        "Langzeitaufenthalte erlaubt",
+        "Host begrüßt Sie",
         "Rauchmelder",
         "Kohlenmonoxidmelder"
       ],
@@ -227,42 +234,50 @@
         "",
         "",
         "",
+        "",
         "Platz, wo Gäste ihre eigenen Mahlzeiten zubereiten können",
         "",
         "",
         "Töpfe und Pfannen, Öl, Salz und Pfeffer",
-        "Schalen, Essstäbchen, Teller, Tassen usw.",
+        "Schüsseln, Stäbchen, Teller, Tassen usw.",
         "",
         "",
         "",
         "",
         "",
-        "Grill, Holzkohle, Bambusspieße/Eisenspieße usw.",
+        "Grill, Kohle, Bambusspieße/Eisenspieße usw.",
         "Ein offener Raum auf dem Grundstück, normalerweise mit Gras bedeckt",
         "",
         "",
-        "Für die Bequemlichkeit der Gäste bei früher Anreise oder später Abreise",
+        "Für Gäste, die früh anreisen oder spät abreisen",
         "",
-        "Erlaube Aufenthalte von 28 Tagen oder länger",
+        "Aufenthalt von 28 Tagen oder länger gestattet",
         "",
-        "Es gibt keinen Rauchmelder in der Unterkunft.",
-        "Es gibt keinen Kohlenmonoxidmelder in der Unterkunft."
+        "Es gibt keinen Rauchmelder auf dem Grundstück.",
+        "Es gibt keinen Kohlenmonoxidmelder auf dem Grundstück."
       ]
     }
   },
   "Pricelist": {
     "title": "Preisliste",
-    "subtitle": "*Der Preis bezieht sich auf einen Zeitraum von 7 Nächten in Euro"
+    "subtitle": "*Der Preis bezieht sich auf den Zeitraum von 7 Nächten in Euro"
   },
   "Payment_conditions": {
-    "subtitle": "GESCHÄFTSBEDINGUNGEN",
+    "subtitle": "ZAHLUNGS- UND BUCHUNGSBEDINGUNGEN",
     "title": "Zahlungs- und Buchungsbedingungen",
-    "des2": "Um Ihre Reservierung zu sichern, ist es verpflichtend, 50% des Gesamtpreises im Voraus direkt an den Eigentümer der Unterkunft zu zahlen und 50%, wenn Sie die Unterkunftseinheit betreten.",
-    "des3": "Kaution erstattbar, wenn alles in Ordnung ist: 500 Euro.",
-    "des4": "Möglichkeit der kostenlosen Stornierung eine Woche nach der Buchung (AUSGENOMMEN BEI LAST MINUTE RESERVIERUNGEN, DANN IST DIE FRIST 48 STUNDEN). Last minute - Buchung zwei Wochen vorher.",
-    "des5": "Am letzten Tag des Aufenthalts ist der Gast verpflichtet, die Unterkunft bis 10 Uhr zu verlassen, damit die anderen Gäste ab 16 Uhr einchecken können.",
+    "des": "Kurtaxe ist nicht im Preis inbegriffen!",
+    "des2": "Zur Sicherung Ihrer Reservierung ist es verpflichtend, 50% des Gesamtpreises im Voraus direkt an den Unterkunftseigentümer zu zahlen und 50% bei Ihrer Ankunft in der Unterkunft.",
+    "des3": "Kaution erstattungsfähig, wenn alles in Ordnung ist: 500 Euro.",
+    "des4": "Möglichkeit der kostenlosen Stornierung innerhalb einer Woche nach der Buchung (AUSGENOMMEN BEI LAST-MINUTE-RESERVIERUNGEN, DANN ENDET DIE FRIST IN 48 STUNDEN). Last-Minute-Buchung - Reservierung zwei Wochen zuvor.",
+    "des5": "Am letzten Tag des Aufenthalts ist der Gast verpflichtet, die Unterkunft bis 10 Uhr zu verlassen, damit andere Gäste ab 16 Uhr einchecken können.",
     "des6": "Bitte beachten Sie, dass Haustiere auf dem Gelände nicht gestattet sind.",
     "title2": "Zahlungsmethoden:"
+  },
+  "Map_Location": {
+    "title": "Lage auf der Karte"
+  },
+  "Availability_Calendar": {
+    "title": "Verfügbarkeitskalender"
   },
   "Villa_BookStay": {
     "des": "ab",
@@ -271,27 +286,27 @@
   },
   "How_Reserve": {
     "subtitle": "SICHERE RESERVIERUNG",
-    "title": "Wie reserviere ich?",
+    "title": "Wie reserviere ich",
     "steps": {
       "title": "Senden Sie uns eine Anfrage",
-      "des": "Bitte senden Sie uns eine Anfrage über das Kontaktformular, per E-Mail oder telefonisch mit allen erforderlichen Informationen und dem Zeitraum, den Sie in der Ferienwohnung Villa Eni verbringen möchten, und erwarten Sie eine schnelle E-Mail-Antwort und unser bestes Angebot.",
+      "des": "Bitte senden Sie uns eine Anfrage über das Kontaktformular, per E-Mail oder Telefon mit allen erforderlichen Informationen und dem Zeitraum, den Sie in der Ferienwohnung Villa Eni verbringen möchten, und erwarten Sie eine schnelle E-Mail-Antwort und unser bestes Angebot",
       "title2": "Reservierung sichern (Zahlung)",
-      "des2": "Um Ihre Reservierung zu sichern, ist es obligatorisch, 50% des Gesamtbetrags im Voraus zu zahlen und den Restbetrag am Tag der Anreise zu begleichen. Nachdem Sie die Zahlung geleistet haben, senden Sie uns bitte eine Benachrichtigung, und wir senden Ihnen eine Bestätigung der Zahlung und Buchung zu. Es gibt 2 Möglichkeiten, um eine Vorauszahlung zu leisten: per Überweisung und über PayPal (Debit- und Kreditkarten).",
+      "des2": "Zur Sicherung Ihrer Reservierung ist es verpflichtend, 30% des Gesamtbetrags im Voraus zu zahlen und den Restbetrag am Tag der Ankunft zu zahlen. Nachdem Sie die Zahlung geleistet haben, senden Sie uns bitte eine Benachrichtigung, und wir senden Ihnen eine Bestätigung der Zahlung und Buchung. Es gibt 2 Möglichkeiten, eine Vorauszahlung zu leisten: per Überweisung und über PayPal (Debit- und Kreditkarten).",
       "subtitle": "Banküberweisung",
       "span": "Kontoinhaber",
       "span2": "Adresse",
       "span3": "Bank",
       "title3": "Bestätigung der Zahlung",
-      "des3": "Wenn die Zahlung erfolgt ist, werden wir Ihre Zahlung und Reservierung bestätigen. Entspannen Sie sich und genießen Sie Ihren Urlaub im Sommer und freuen Sie sich auf Ihren Urlaub in der Ferienwohnung Villa Relax, Istrien - Kroatien!"
+      "des3": "Wenn die Zahlung erfolgt ist, bestätigen wir Ihre Zahlung und Reservierung. Entspannen Sie sich und erwarten Sie friedlich Ihren Urlaub im Sommer und genießen Sie Ihren Urlaub in der Ferienwohnung Villa Panorama, Istrien - Kroatien!"
     }
   },
   "Environs": {
-    "title": "Pula & Istrien",
-    "des": "In unserer Nachbarschaft gibt es viele Restaurants wie \"Volaria\" und die Fischerhütte im Yachthafen Veruda, die eine reichhaltige Meeresfrüchtemenü, Pizzeria Jupiter, das Restaurant Boccaporta mit traditioneller istrianischer Küche sowie die Pivnica na Rivi anbieten. Sie können Fahrräder, Mopeds, Boote, Autos usw. mieten. Am Hauptstrand Verudela können Sie einen Sportplatz für Minigolf und Badminton, Tennis, Surfen und sogar ein Parasailing-Boot oder ein kleines Flugzeug mieten. Es gibt auch einen Tauchclub. Ebenso gibt es am Verudela die Bunarina, von der jede Stunde ein Boot zur Insel Fratarski ablegt. Bootsausflüge: Brijuni-Inseln (Nationalpark) - Abfahrt mit dem Boot von der Stadt Fažana, 5 km von Pula entfernt, Reise nach Grün und Blau Istrien (Weinstraße - Weinprobe, Agritourismus). Rovinj ist 30 km von Pula entfernt, wo Sie Kroatien im Miniaturformat sehen und ein großes Aquarium besuchen können. Das Feštinsko Kraljevstvo in der Nähe von Pula (interessante Höhle), Unterhaltungszentrum in Pula Green Garden (Paintball, Karting), Barrel Equestrian Club in Pula, Nachtleben: Disco Pietas, Disco Uljanik, Disco Cargo, Terrasse mit Live-Musik am Verudela und Zlatne Stijene, Veranstaltungen: Auf dem Forum, dem Hauptplatz der Stadt (traditionelle und moderne Tänze sowie Live-Musik) und in der Arena Amphitheater (Konzerte, Filmfestivals).",
+    "title": "Gajana & Istrien",
+    "des": "Gajana ist ein perfekter Ort, um einen entspannten Urlaub zu erleben, aber es ist auch nahe genug an allen Arten von Aktivitäten, wenn Sie Ihre Meinung ändern. Gajana ist umgeben von Weinbergen, Olivenhainen, Wäldern und vielen schönen Sehenswürdigkeiten. Sie können den Kazun Park besuchen - einen Park mit traditionellen istrischen Häusern aus Stein, der ein Ort mit den meisten Kazuns an einem Ort im Mittelmeerraum ist. Der Nationalpark Brijuni (der von der Villa aus sichtbar ist) und der Limski-Zaljev (Kanal von Lim) befinden sich ebenfalls in dieser Region. Da Gajana ein Ort ist, der von Weinbergen und Olivenhainen umgeben ist, ist der beste Weg, dies zu erleben, einige der Wander- oder Radwege durch die Gegend zu nehmen. Da die Küste nur 5 km entfernt ist, können Sie sich in Angel-, Segel- oder Tauchaktivitäten versuchen. Strand, Bars, Restaurants und Lebensmittelgeschäfte finden Sie im Umkreis von 5 km.",
     "button": "Karte anzeigen",
     "title2": "Fortbewegungsmittel",
-    "des2": "Sie können die Villa mit dem Auto oder Taxi erreichen. Parkplätze sind kostenlos und vor Ort verfügbar.",
-    "subtitle": "Sehenswürdigkeiten in der Nähe"
+    "des2": "Sie können die Villa mit dem Auto oder Taxi erreichen. Parkplätze sind kostenlos und auf dem Gelände verfügbar.",
+    "subtitle": "Attraktionen in der Nähe"
   },
   "PriceTable": {
     "title": "Zeitraum",
@@ -303,22 +318,22 @@
     "title": "Kontaktiere uns",
     "Contact_Form": {
       "name": "Name",
-      "email": "E-Mail",
+      "email": "Email",
       "phone": "Telefon",
       "home": "Ferienhaus",
       "adults": "Erwachsene",
       "children": "Kinder",
-      "arrival": "Anreise",
+      "arrival": "Ankunft",
       "departure": "Abreise",
       "message": "Anfrage",
-      "des": "Der Inhalt dieses Formulars wird direkt an die E-Mail-Adresse des Eigentümers der Unterkunft gesendet und ausschließlich dazu verwendet, Anfragen zur Buchung der aufgeführten Unterkunft zu senden.",
+      "des": "Der Inhalt dieses Formulars wird direkt an die E-Mail-Adresse des Eigentümers der Unterkunft gesendet und dient ausschließlich zum Versenden von Anfragen zur Buchung der aufgeführten Immobilie.",
       "button": "Anfrage senden",
       "sent": "Erfolgreich gesendet"
     },
     "Contact_Info": {
-      "contact_person": "Ansprechpartner",
+      "contact_person": "Kontaktperson",
       "mobile": "Handy",
-      "email": "E-Mail",
+      "email": "Email",
       "address": "Adresse",
       "we_speak": "Wir sprechen"
     }

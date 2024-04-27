@@ -1,21 +1,21 @@
 {
   "Titles": {
-    "homepage_title": "Villa Panorama - Istria",
-    "Villa_Panorama": "Holiday Home Villa Panorama",
+    "homepage_title": "Villa Relax - Pula",
+    "Villa_Relax": "Holiday Home Villa Relax",
     "Villa_Map_Location": "Location on the map",
     "Availability_Calendar": "Availability Calendar",
     "Availability_Appointments_sub": "AVAILABLE APPOINTMENTS",
-    "Price_list": "Price list Villa Panorama",
-    "Photogallery": "Photogallery Villa Panorama, Istra",
-    "Surrondings": "Gajana and surroundings",
-    "Surrondings_sub": "GAJANA & ISTRA"
+    "Price_list": "Price list Villa Relax",
+    "Photogallery": "Photogallery Villa Relax, Pula",
+    "Surrondings": "Pula and surroundings",
+    "Surrondings_sub": "PULA & ISTRIA"
   },
   "Buttons": {
     "Show_Gallery": "Show Gallery"
   },
   "Navigation": {
     "navlinks": [
-      "Villa Panorama",
+      "Villa Relax",
       "Pricelist",
       "Photogallery",
       "Environs",
@@ -26,9 +26,9 @@
 
   "HeaderSwiper": {
     "titles": [
-      "Welcome to Villa Panorama - Istra",
+      "Welcome to Villa Relax - Pula",
       "Jacuzzi Paradise",
-      "Rustic Fireplace Retreat",
+      "Fireplace Retreat",
       "Modern Design and Spacious Dinning Table",
       "Stylish Pool Table Retreat",
       "Welcome Entrance",
@@ -38,7 +38,7 @@
     "descriptions": [
       "Tranquil Oasis Villa",
       "Indulge in the ultimate relaxation experience as you unwind in the Jacuzzi",
-      "Embrace the warmth and charm of the traditional Istrian 'Kažun' fireplace at Villa Panorama, where cozy evenings are spent in rustic tranquility.",
+      "Cozy haven where crackling flames and warmth embrace you, inviting relaxation and tranquility amidst the gentle glow of flickering embers.",
       "Enjoy cozy gatherings around the generously sized dining table",
       "Unwind with a game of pool on the sleek pool table",
       "Elegant entrance that seamlessly blends modern design and welcoming ambiance, inviting you to unwind in style.",
@@ -50,15 +50,10 @@
 
   "About": {
     "title": "Overview",
-    "des": "Beautiful Beautiful **Villa Panorama Istria** surrounded by **nature**. It's an ideal place to **rest** for all lovers of **peace**, **quiet**, and **nature**. Villa of **520m square** is located on a plot of **2500 m2**. You have at your disposal a beautiful **garden** and a large **lawn** for play and **entertainment** (**trampoline**, **football goals**). The villa is carefully **furnished**, with **quality furniture** and great attention to detail. **Traditional** and **modern elements** blend together to form an **interesting** whole.",
-    "the_space": {
-      "title": "The space",
-      "des": "In front of the Villa there is a spacious summer kitchen with a wood-burning fireplace that serves for dining and entertainment (table football, piccado and billiards). Also there is a working room and a bathroom. In addition to the summer kitchen there is a **68 m square swimming pool with air massage facilities, a waterfall** . Traditional speciality is occupied by an Istrian cape built in stone style. It consists of a fire pit for setting a grill or baking for dining. It is especially attractive large terrace that spreads on one side of the villa overlooking the sea and surrounding green areas, which also makes it an ideal place for dining and resting.",
-      "des2": "It consists of a spacious living room, fully equipped kitchen , **7 charming bedrooms with bathrooms, air conditioning and TV**. Heating in every room with radiators. All rooms are air conditioned. In addition to the villa, there is a wellness room ( **sauna ,jacuzzi, exercise equipment**).It is also a garage with **2 parking spaces** and there are **8 bikes**. Parking space offers the possibility of more than a dozen parking spaces."
-    },
+    "des": "**The villa** is located in a quiet tourist settlement street of the city of **Pula**. It is **900 m** away from the **sea**. The first main beach Verudela is excellent, only a 3-minute drive away. A café is 20 meters away and a shop is 100 meters away from the house. The house is extremely comfortable and stylishly furnished, adapted to modern way of life. It is available for 14 people + 2 extra beds. The interior space occupies 500 square meters and 2000 square meters of natural plot, which provides additional ambiance. The lawn features **football goals**, a trampoline, a swing, and a **fireplace**.",
     "guest_access": {
       "title": "Guest Access",
-      "des": "Jacuzzi, sauna, fitness, bikes, karaoke, billiards, foosball, darts, trampoline."
+      "des": "Jacuzzi, sauna, fitness, bikes, karaoke, billiards, football, darts, trampoline."
     },
     "locations": {
       "title": "What to see and visit:",
@@ -73,7 +68,7 @@
   },
 
   "Distances": {
-    "title": "Distances from Villa Panorama",
+    "title": "Distances from Villa Relax",
     "button": "Show Map",
     "place": [
       "Sea",
@@ -93,14 +88,14 @@
   "Acommodation": {
     "subtitle": "ACCOMMODATION",
     "title": "We offer you 1 Villa",
-    "card_title": "Villa Panorama",
+    "card_title": "Villa Relax",
     "card_des": "Maximum of 16 people",
     "card_des2": "Price from",
     "card_des3": "per night"
   },
   "Photogalleries": {
     "subtitle": "PHOTOGALLERIES",
-    "title": "Select photos from Villa Panorama",
+    "title": "Select photos from Villa Relax",
     "button": "Show Photogallery"
   },
   "Tourist_Guide": {
@@ -116,11 +111,11 @@
     ]
   },
   "Send_Message": {
-    "des": "Please **send us an** answer if you would like to belong to Villa Panorama in Istria and secure your reservation?",
+    "des": "Please **send us an** answer if you would like to belong to Villa Relax in Pula and secure your reservation?",
     "button": "Send Message"
   },
   "Footer": {
-    "year": "©2024 . Villa Panorama - Istria",
+    "year": "©2024 . Villa Relax - Pula",
     "rights": "All rights protected",
     "Discover": {
       "title": "Discover",
@@ -137,11 +132,11 @@
     "title": ["Categorization", "Capacity", "Size", "Garden"]
   },
   "Villa_Description": {
-    "des": "Stone Luxury Villa is located in Gajana, a peaceful place near Vodnjan (Dignano). This 7-bedroom villa (with en-suite bathroom in every bedroom) is perfect for nature lovers who like to relax away from the city noise. It has a lot to offer to its guests.",
+    "des": "The villa is located in a quiet tourist settlement street of the city of Pula. It is 900 m away from the sea. The first main beach Verudela is excellent, only a 3-minute drive away. A café is 20 meters away and a shop is 100 meters away from the house. The house is extremely comfortable and stylishly furnished, adapted to modern way of life. It is available for 14 people + 2 extra beds. The interior space occupies 500 square meters and 2000 square meters of natural plot, which provides additional ambiance. The lawn features football goals, a trampoline, a swing, and a fireplace.",
     "subtitle": "The Space",
-    "des2": "There is an outdoor swimming pool (68 m2) with a possibility of an air massage and a water cascade on the side of the pool. Spacious lawn offers a children's playground with a trampoline and football goals. Next to the pool, there is a replica of an old Istrian house called \"kazun\", which offers BBQ facilities. Beautiful terrace is a perfect place to enjoy your meal. Another place for dining is a summer kitchen, which is located within a game room with darts, billiard table and table football. Beauty room next to the villa offers a sauna, jacuzzi and excercising equippment. Villa has a surveillance system, which tapes the villa's surroundings and provides safety to its guests. Villa can accommodate 16 people. There are 7 bedrooms in the villa. 3 bedrooms offer a king size beds, and each of them can fit 2 people. In the rest of the bedrooms (4 of them), there are 2 single beds in each of them. Someone can also sleep on living room sofas, if they wish to.",
+    "des2": "On the ground floor of the property is a spacious living area with a kitchen and dining room of modern design, leading to a large terrace of 100 square meters where garden furniture and a pavilion are located. Also on the ground floor is a wellness area, from which a view of the pool, terraces, and greenery is provided through large glass walls. The pool is 48 square meters in size, with a shallow area for children (0.5 meters deep) and a deeper area for adults (1.5 meters deep), equipped with hydro massage. The activity area extends through the entire basement of the house, with an additional kitchen and a fireplace that complements the experience. In the basement, there is also a garage with 2 parking spaces and 6 bicycles for city rides, while the fully fenced plot offers another 4 parking spaces. On the upper floor of the house, there is a study, 4 bedrooms with bathrooms, each with access to a terrace, and 1 attic room. The house is air-conditioned, and all rooms have central heating. In addition to the internal staircase, the floors are interconnected by an elevator. Large covered terraces further distinguish this property. The house is located near the marina, as well as all other interesting amenities, including the center of ancient Pula, which abounds in cultural and historical landmarks.",
     "subtitle2": "Guest access",
-    "des3": "Guests can access 7 bedrooms, 2 living rooms, 2 kitchens, 9 bathrooms + a separated toilet, balconies, terrace, beauty room, game room/summer kitchen, \"kazun\" with BBQ facilities, a room with a washing machine and ironing facilities, swimming pool, lawn, garden, children's playground and entire outdoor area (2500 m2)."
+    "des3": "Guests can access 6 bedrooms, 2 living rooms, 2 kitchens, 8 bathrooms, balconies, terrace, beauty room, game room/summer kitchen, a room with a washing machine and ironing facilities, swimming pool, lawn, garden, children's playground and entire outdoor area."
   },
   "Villa_Features": {
     "title": "Features",
@@ -263,7 +258,6 @@
   "Payment_conditions": {
     "subtitle": "TERMS & CONDITIONS",
     "title": "Payment and booking conditions",
-    "des": "Tourist tax is not included in the price!",
     "des2": "For your reservation to be secured it is obligation to pay 50% of full price in advance directly to owner of accommodation and 50% when you come to accommodation unit.",
     "des3": "Deposit refundable if all is well: 500 euros.",
     "des4": "Possibility of free cancellation one week after booking (EXCEPT IN LAST MINUTE RESERVATIONS, THEN THE DEADLINE IS 48 HOURS). Last minute - Reservation two weeks before.",
@@ -283,18 +277,18 @@
       "title": "Send us an inquiry",
       "des": "Please send us inquiry via contact form, email or phone with all required information and period you wish to spend a vacation in holiday home Villa Eni and expect fast e-mail answer and our best offer",
       "title2": "Securing reservation (payment)",
-      "des2": "For your reservation to be secured it is obligation to pay 30% of the full amount in advance and rest of the amount on the day of arrival. After you make payment, please send us notification and we will send you confirmation of payment and booking. There are 2 options to make advance payment: bank transfer and via PayPal (debit and credit cards).",
+      "des2": "For your reservation to be secured it is obligation to pay 50% of the full amount in advance and rest of the amount on the day of arrival. After you make payment, please send us notification and we will send you confirmation of payment and booking. There are 2 options to make advance payment: bank transfer and via PayPal (debit and credit cards).",
       "subtitle": "Bank Transfer",
       "span": "Account owner",
       "span2": "Address",
       "span3": "Bank",
       "title3": "Confirmation of payment",
-      "des3": "When payment is done, we will confirm your payment and reservation. Relax and await peacefully you vacation in summer and enjoy in your vacations in holiday home Villa Panorama, Istria - Croatia!"
+      "des3": "When payment is done, we will confirm your payment and reservation. Relax and await peacefully your vacation in summer and enjoy in your vacations in holiday home Villa Relax, Istria - Croatia!"
     }
   },
   "Environs": {
-    "title": "Gajana & Istria",
-    "des": "Gajana is a perfect place to experience a relaxing vacation, but it's also close enough to all kinds of activities if you change your mind. Gajana is surrounded by vineyards, olive groves, woods and a lot of beautiful sights. You can visit Kazun Park - a park with traditional Istrian houses made of stone, and it's a place with most kazun's located in one place in the Mediterranean area. <br /> National Park Brijuni (which is visible from the villa) and Limski zaljev (Channel of Lim) are also located in this region. Since Gajana is a place surrounded by vineyards and olive groves, the best way to experience it is to take some of hiking or cycling routes through the area. Since the coast is only 5 km away, you can try fishing, sailing or diving activities. Beach, bars, restaurants and grocery shops can be found in 5 km range.",
+    "title": "Pula & Istria",
+    "des": "In our neighborhood, there are many restaurants such as \"Volaria\" and the Fishermen's Hut in Marina Veruda, offering a rich seafood menu, Pizzeria Jupiter, Boccaporta restaurant offering traditional Istrian cuisine, as well as Pivnica na Rivi. You can rent bicycles, mopeds, boats, cars, etc. On the main beach Verudela, you can rent a sports field for mini-golf and badminton, tennis, surfing, and even a parasailing boat or a small airplane. There is also a diving club. Similarly, at Verudela, there is Bunarina, from where a boat departs every hour to Fratarski Island. Boat excursions: Brijuni Islands (National Park) - departure by boat from the town of Fažana, 5 km away from Pula, Journey to Green and Blue Istria (Wine Road - wine tasting, agritourism). Rovinj is 30 km away from Pula, where you can see Croatia in miniature and visit a large aquarium. The Feštinsko Kraljevstvo near Pula (interesting cave), Entertainment center in Pula Green Garden (paintball, karting), Barrel Equestrian Club in Pula, Nightlife: disco Pietas, disco Uljanik, disco Cargo, Terrace with live music at Verudela and Zlatne Stijene, Events: At the Forum, the main city square (traditional and modern dances as well as live music, and at the Arena Amphitheater (concerts, film festivals).",
     "button": "Show Map",
     "title2": "Getting around",
     "des2": "You can reach the villa by car or taxi. Parking is free and available on site.",
