@@ -47,7 +47,7 @@ const createTitle = (
 export const TitleDataEn: DataObject = {
   data: [
     createTitle(
-      enData.Titles.Villa_Relax,
+      enData.Titles.Villa_Panorama,
       enData.Titles.Villa_Map_Location,
       enData.Titles.Availability_Calendar,
       enData.Titles.Price_list,
@@ -64,7 +64,7 @@ export const TitleDataEn: DataObject = {
 export const TitleDataDE: DataObject = {
   data: [
     createTitle(
-      deData.Titles.Villa_Relax,
+      deData.Titles.Villa_Panorama,
       deData.Titles.Villa_Map_Location,
       deData.Titles.Availability_Calendar,
       deData.Titles.Price_list,
@@ -80,7 +80,7 @@ export const TitleDataDE: DataObject = {
 export const TitleDataHR: DataObject = {
   data: [
     createTitle(
-      hrData.Titles.Villa_Relax,
+      hrData.Titles.Villa_Panorama,
       hrData.Titles.Villa_Map_Location,
       hrData.Titles.Availability_Calendar,
       hrData.Titles.Price_list,
@@ -96,7 +96,7 @@ export const TitleDataHR: DataObject = {
 export const TitleDataIT: DataObject = {
   data: [
     createTitle(
-      itData.Titles.Villa_Relax,
+      itData.Titles.Villa_Panorama,
       itData.Titles.Villa_Map_Location,
       itData.Titles.Availability_Calendar,
       itData.Titles.Price_list,
