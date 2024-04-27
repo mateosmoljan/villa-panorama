@@ -19,9 +19,47 @@ const poppins = Poppins({
 
 export const metadata: Metadata = {
   title: "Villa Panorama",
-  description: "Experience world-class service at Villa Panorama - Istria",
+  description:
+    "Welcome to Villa Panorama, your luxurious accommodation in Istria. Experience breathtaking views, modern amenities, and personalized service.",
   icons: {
     icon: "/assets/images/logo.png",
+  },
+  generator: "Next.js",
+  applicationName: "Accommodation Villa Panorama",
+  referrer: "origin-when-cross-origin",
+  keywords: ["Accommodation", "Villa Panorama", "Istria", "Croatia"],
+  robots: "index, follow",
+  viewport: "width=device-width, initial-scale=1.0",
+  openGraph: {
+    type: "website",
+    title: "Accommodation Villa Panorama - Istria",
+    description:
+      "Welcome to Villa Panorama, your luxurious accommodation in Istria. Experience breathtaking views, modern amenities, and personalized service.",
+    url: "https://villapanoramaistria.io",
+  },
+  twitter: {
+    card: "summary_large_image",
+    // site: "@YourTwitterHandle",
+    title: "Accommodation Villa Panorama - Istria",
+    description:
+      "Welcome to Villa Panorama, your luxurious accommodation in Istria. Experience breathtaking views, modern amenities, and personalized service.",
+    images: [
+      {
+        url: "https://www.villapanoramaistria.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F27.92c57344.jpg&w=3840&q=75",
+        alt: "Villa Panorama",
+      },
+    ],
+  },
+  authors: [
+    { name: "Boost Web" },
+    { name: "Boost Web", url: "https://boostweb.io" },
+  ],
+  creator: "Boost Web",
+  publisher: "Boost Web",
+  formatDetection: {
+    email: false,
+    address: false,
+    telephone: false,
   },
 };
 
