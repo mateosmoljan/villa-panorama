@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     title: "Accommodation Villa Panorama - Istria",
     description:
       "Welcome to Villa Panorama, your luxurious accommodation in Istria. Experience breathtaking views, modern amenities, and personalized service.",
-    url: "https://villapanoramaistria.io",
+    url: "https://villapanoramaistria.com",
   },
   twitter: {
     card: "summary_large_image",
