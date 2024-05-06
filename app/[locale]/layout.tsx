@@ -4,6 +4,7 @@ import "./globals.css";
 import { Arbutus_Slab, Poppins } from "next/font/google";
 import Navbar from "@/components/Navigation/Navbar";
 import Footer from "@/components/Footer/Footer";
+import Head from 'next/head'
 
 const arbutus = Arbutus_Slab({
   subsets: ["latin"],
@@ -72,6 +73,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang={locale}>
+      <Head>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-KNFV88EDM4"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-KNFV88EDM4');
+</script>
+      </Head>
       <body
         className={`${poppins.variable} font-poppins ${arbutus.variable} font-arbutus`}
       >
