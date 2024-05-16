@@ -22,7 +22,7 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "Villa Panorama",
   description:
-    "Welcome to Villa Panorama, your luxurious accommodation in Istria. Experience breathtaking views, modern amenities, and personalized service.",
+    "Welcome to Villa Panorama, your luxurious accommodation in Istria. Experience breathtaking views, modern amenities, and personalized service. ⭐⭐⭐⭐⭐",
   icons: {
     icon: "/assets/images/logo.png",
   },
@@ -36,7 +36,7 @@ export const metadata: Metadata = {
     type: "website",
     title: "Accommodation Villa Panorama - Istria",
     description:
-      "Welcome to Villa Panorama, your luxurious accommodation in Istria. Experience breathtaking views, modern amenities, and personalized service.",
+      "Welcome to Villa Panorama, your luxurious accommodation in Istria. Experience breathtaking views, modern amenities, and personalized service. ⭐⭐⭐⭐⭐",
     url: "https://villapanoramaistria.com",
   },
   twitter: {
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     // site: "@YourTwitterHandle",
     title: "Accommodation Villa Panorama - Istria",
     description:
-      "Welcome to Villa Panorama, your luxurious accommodation in Istria. Experience breathtaking views, modern amenities, and personalized service.",
+      "Welcome to Villa Panorama, your luxurious accommodation in Istria. Experience breathtaking views, modern amenities, and personalized service. ⭐⭐⭐⭐⭐",
     images: [
       {
         url: "https://www.villapanoramaistria.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F27.92c57344.jpg&w=3840&q=75",
