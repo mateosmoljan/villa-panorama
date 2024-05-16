@@ -337,5 +337,25 @@
       "we_speak": "Parliamo",
       "sent": "Inviato con successo"
     }
+  },
+  "Calendar": {
+    "one": "Gennaio",
+    "two": "Febbraio",
+    "three": "Marzo",
+    "four": "Aprile",
+    "five": "Maggio",
+    "six": "Giugno",
+    "seven": "Luglio",
+    "eight": "Agosto",
+    "nine": "Settembre",
+    "ten": "Ottobre",
+    "eleven": "Novembre",
+    "twelve": "Dicembre",
+    "booked": "Prenotato",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "reset": "Ripristina",
+    "back": "Indietro",
+    "next": "Avanti"
   }
 }

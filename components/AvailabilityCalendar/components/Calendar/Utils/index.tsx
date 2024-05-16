@@ -16,6 +16,8 @@ import {
   DaysOfWeekOffsetType,
   DayOffset,
 } from "./../types";
+import { useLocale, useTranslations } from "next-intl";
+import { getCalendarData } from "@/lib/Calendar";
 
 const dateFormat = "M-D-YYYY";
 
@@ -48,20 +50,22 @@ export const isValidMonthsOption = (numOfMonths: number): boolean => {
   return isValid;
 };
 
-export const getMonthName = (month: number): string => {
+export const getMonthName = (month: number): string | undefined => {
+  const localeActive = useLocale();
+  const CalendarData = getCalendarData(localeActive);
   const months: IGetMonthName = {
-    1: "January",
-    2: "February",
-    3: "March",
-    4: "April",
-    5: "May",
-    6: "June",
-    7: "July",
-    8: "August",
-    9: "September",
-    10: "October",
-    11: "November",
-    12: "December",
+    1: CalendarData.data[0].one,
+    2: CalendarData.data[0].two,
+    3: CalendarData.data[0].three,
+    4: CalendarData.data[0].four,
+    5: CalendarData.data[0].five,
+    6: CalendarData.data[0].six,
+    7: CalendarData.data[0].seven,
+    8: CalendarData.data[0].eight,
+    9: CalendarData.data[0].nine,
+    10: CalendarData.data[0].ten,
+    11: CalendarData.data[0].eleven,
+    12: CalendarData.data[0].twelve,
   };
 
   return months[month];

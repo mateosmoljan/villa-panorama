@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import dayjs from "dayjs";
 import isBetween from "dayjs/plugin/isBetween";
 import { IYear } from "./../types";
@@ -12,13 +12,13 @@ import { bookings } from "@/components/AvailabilityCalendar/AvailabilityCalendar
 
 dayjs.extend(isBetween);
 
-const Year = ({
+const Year: React.FC<IYear> = ({
   activeYear,
   showNumberOfMonths = 12,
   bookedDates = [],
   lateCheckouts = [],
   monthsFrom = 1,
-}: IYear): JSX.Element => {
+}): JSX.Element => {
   const _year = activeYear || dayjs().year();
 
   return (
@@ -42,7 +42,7 @@ const Year = ({
           <div key={pos} className="month" data-testid="month">
             <h3 className="monthName">{monthName}</h3>
 
-            <div className="content dayOfTheWeek">
+            {/* <div className="content dayOfTheWeek">
               {daysOfTheWeek.map((dayOfTheWeek, pos) => {
                 return (
                   <div key={pos} className="day">
@@ -50,7 +50,7 @@ const Year = ({
                   </div>
                 );
               })}
-            </div>
+            </div> */}
 
             <div className="content">
               {offsetDays.map((_, pos) => {

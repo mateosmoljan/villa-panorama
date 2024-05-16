@@ -2,8 +2,12 @@ import React from "react";
 import { IControls } from "./../types";
 import { MdOutlineKeyboardDoubleArrowRight } from "react-icons/md";
 import { MdKeyboardDoubleArrowLeft } from "react-icons/md";
+import { getCalendarData } from "@/lib/Calendar";
+import { useLocale } from "next-intl";
 
 const Controls = ({ prev, initCal, next }: IControls): JSX.Element => {
+  const localeActive = useLocale();
+  const CalendarData = getCalendarData(localeActive);
   return (
     <div className="controls" data-testid="controls">
       <button
@@ -12,11 +16,11 @@ const Controls = ({ prev, initCal, next }: IControls): JSX.Element => {
         data-testid="back"
       >
         <MdKeyboardDoubleArrowLeft className="text-xl" />
-        Back
+        {CalendarData.data[0].back}
       </button>
 
       <button className="btn now" onClick={() => initCal()} data-testid="now">
-        Reset
+        {CalendarData.data[0].reset}
       </button>
 
       <button
@@ -24,7 +28,7 @@ const Controls = ({ prev, initCal, next }: IControls): JSX.Element => {
         onClick={() => next()}
         data-testid="next"
       >
-        Next
+        {CalendarData.data[0].next}
         <MdOutlineKeyboardDoubleArrowRight className="text-xl" />
       </button>
     </div>

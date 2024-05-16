@@ -337,5 +337,25 @@
       "address": "Adresse",
       "we_speak": "Wir sprechen"
     }
+  },
+  "Calendar": {
+    "one": "Januar",
+    "two": "Februar",
+    "three": "März",
+    "four": "April",
+    "five": "Mai",
+    "six": "Juni",
+    "seven": "Juli",
+    "eight": "August",
+    "nine": "September",
+    "ten": "Oktober",
+    "eleven": "November",
+    "twelve": "Dezember",
+    "booked": "Gebucht",
+    "checkIn": "Einchecken",
+    "checkOut": "Auschecken",
+    "reset": "Zurücksetzen",
+    "back": "Zurück",
+    "next": "Weiter"
   }
 }

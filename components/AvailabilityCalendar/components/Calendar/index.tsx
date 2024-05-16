@@ -149,7 +149,6 @@ const Calendar = ({
         ? "twoCol"
         : "singleCol"
       : "";
-
   return (
     <section className={`calendar ${layoutClassName}`} data-testid="calendar">
       <h2 className=" text-4xl text-dark_blue_black mb-4">Villa Panorama</h2>
@@ -166,7 +165,9 @@ const Calendar = ({
           </div>
         )}
 
-        <div className="h-[280px] overflow-x-hidden overflow-y-scroll">
+        <div
+          className={`overflow-x-hidden overflow-y-scroll my-2  p-4 pt-6 h-[260px] sm:h-[510px]`}
+        >
           <Year {...configYear} />
         </div>
 

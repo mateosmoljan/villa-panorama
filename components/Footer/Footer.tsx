@@ -50,7 +50,7 @@ function Footer() {
           <ul className="space-y-4">
             <li>Alen Smoljan</li>
             <li>Tršičani 43, 52215, Vodnjan</li>
-            <li>+(385) 99 3998032</li>
+            <li>+(385) 98 263 136</li>
             <li>villpanoramaistria@gmail.com</li>
           </ul>
         </div>

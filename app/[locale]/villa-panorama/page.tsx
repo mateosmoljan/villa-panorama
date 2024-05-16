@@ -150,23 +150,23 @@ function VillaPanorama() {
               <h2 className="font-bold text-2xl text-dark_blue_black mb-4">
                 {TitleData.data[0].title2}
               </h2>
-              <div className="h-[400px] rounded-md overflow-hidden lg:mb-52">
+              <div className="h-[400px] rounded-md overflow-hidden lg:mb-[40px]">
                 <IFrameMaps />
               </div>
             </div>
           </div>
           <div className="w-full lg:w-1/3">
-            <div className="mx-auto !sticky top-14 lg:ml-2.5 w-full mb-52 lg:mb-auto">
+            <div className="mx-auto !sticky top-14 lg:ml-2.5 w-full mb-[40px] lg:mb-auto">
               <BookYourStayCard />
             </div>
           </div>
         </div>
-        {/* <div className="container py-10 mb-24">
+        <div className="container py-10 mb-24">
           <h2 className="block text-center font-bold text-2xl text-dark_blue_black mb-6">
             {TitleData.data[0].title3}
           </h2>
           <AvailabilityCalendar />
-        </div> */}
+        </div>
       </div>
     </section>
   );
