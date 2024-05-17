@@ -6,6 +6,7 @@ import Navbar from "@/components/Navigation/Navbar";
 import Footer from "@/components/Footer/Footer";
 import Head from "next/head";
 import GoogleAnalytics from "@/components/GoogleAnalytics/GoogleAnalitics";
+import { Partytown } from "@builder.io/partytown/react";
 
 const arbutus = Arbutus_Slab({
   subsets: ["latin"],
@@ -76,6 +77,9 @@ export default function RootLayout({
     <>
       <html lang={locale}>
         <GoogleAnalytics />
+        <Head>
+          <Partytown debug={true} forward={["dataLayer.push"]} />
+        </Head>
         <body
           className={`${poppins.variable} font-poppins ${arbutus.variable} font-arbutus`}
         >
