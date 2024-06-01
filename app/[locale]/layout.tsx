@@ -77,9 +77,9 @@ export default function RootLayout({
   return (
     <>
       <html lang={locale}>
-        <GoogleAnalytics />
         <Head>
           <Partytown debug={true} forward={["dataLayer.push"]} />
+          <GoogleAnalytics />
           <script
             src="https://www.villapanoramaistria.com/_next/static/chunks/fd9d1056-686591216e0936c1.js"
             type="text/partytown"
