@@ -72,17 +72,15 @@ export default function RootLayout({
   params: { locale: string };
 }) {
   return (
-    <>
-      <html lang={locale}>
-        <GoogleAnalytics />
-        <body
-          className={`${poppins.variable} font-poppins ${arbutus.variable} font-arbutus`}
-        >
-          <Navbar />
-          {children}
-          <Footer />
-        </body>
-      </html>
-    </>
+    <html lang={locale}>
+      <GoogleAnalytics />
+      <body
+        className={`${poppins.variable} font-poppins ${arbutus.variable} font-arbutus`}
+      >
+        <Navbar />
+        {children}
+        <Footer />
+      </body>
+    </html>
   );
 }
