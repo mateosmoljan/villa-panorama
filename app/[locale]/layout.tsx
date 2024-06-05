@@ -4,10 +4,7 @@ import "./globals.css";
 import { Arbutus_Slab, Poppins } from "next/font/google";
 import Navbar from "@/components/Navigation/Navbar";
 import Footer from "@/components/Footer/Footer";
-import Head from "next/head";
 import GoogleAnalytics from "@/components/GoogleAnalytics/GoogleAnalitics";
-import { Partytown } from "@builder.io/partytown/react";
-import Script from "next/script";
 
 const arbutus = Arbutus_Slab({
   subsets: ["latin"],
