@@ -19,7 +19,7 @@ function Footer() {
             <p className="">
               <a
                 href="https://www.boostweb.io"
-                className="!text-white hover:text-yellow"
+                className="!text-white hover:!text-yellow"
               >
                 {t("created_by")}
               </a>
