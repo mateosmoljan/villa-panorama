@@ -16,8 +16,13 @@ function Footer() {
             <Image src={SSL} alt="ssl Villa Relax" width={200} />
             <p>{t("year")}</p>
             <p>{t("rights")}</p>
-            <p className="hover:text-yellow">
-              <a href="https://www.boostweb.io">{t("created_by")}</a>
+            <p className="">
+              <a
+                href="https://www.boostweb.io"
+                className="!text-white hover:text-yellow"
+              >
+                {t("created_by")}
+              </a>
             </p>
           </div>
         </div>
