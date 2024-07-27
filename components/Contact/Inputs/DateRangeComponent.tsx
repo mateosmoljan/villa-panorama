@@ -82,6 +82,7 @@ function DataRangeComponent() {
       { startDate: new Date("2024-07-05"), endDate: new Date("2024-08-02") },
       { startDate: new Date("2024-09-02"), endDate: new Date("2024-09-21") },
       { startDate: new Date("2025-02-08"), endDate: new Date("2025-02-08") },
+      { startDate: new Date("2025-03-08"), endDate: new Date("2025-03-09") },
       { startDate: new Date("2025-04-10"), endDate: new Date("2025-04-14") },
       { startDate: new Date("2025-05-02"), endDate: new Date("2025-05-03") },
       { startDate: new Date("2025-05-17"), endDate: new Date("2025-05-20") },
