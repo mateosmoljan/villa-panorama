@@ -21,11 +21,11 @@ function ContactInfo() {
               Address:{" "}
               <span className="font-Bold">Tršičani 43, 52215, Vodnjan</span>
             </li>
-            <li>
-              {/* {ContactData.data[0].mobile} */}
-              Mobile:{" "}
+            {/* <li> */}
+            {/* {ContactData.data[0].mobile} */}
+            {/* Mobile:{" "}
               <span className="text-yellow font-Bold">+(385) 98 263 136</span>
-            </li>
+            </li> */}
             <li>
               {/* {ContactData.data[0].email_info} */}
               Email:{" "}
