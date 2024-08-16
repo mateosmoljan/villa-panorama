@@ -55,6 +55,11 @@ export const bookings = [
     middayCheckout: true,
   },
   {
+    from: new Date("04-23-2025"),
+    to: new Date("04-30-2025"),
+    middayCheckout: true,
+  },
+  {
     from: new Date("05-01-2025"),
     to: new Date("05-04-2025"),
     middayCheckout: true,
@@ -62,6 +67,11 @@ export const bookings = [
   {
     from: new Date("05-16-2025"),
     to: new Date("06-29-2025"),
+    middayCheckout: true,
+  },
+  {
+    from: new Date("08-04-2025"),
+    to: new Date("08-09-2025"),
     middayCheckout: true,
   },
   {
