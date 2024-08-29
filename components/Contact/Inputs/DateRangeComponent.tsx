@@ -90,7 +90,7 @@ function DataRangeComponent() {
       { startDate: new Date("2025-09-05"), endDate: new Date("2025-09-07") },
       { startDate: new Date("2025-09-11"), endDate: new Date("2025-09-13") },
       { startDate: new Date("2025-09-15"), endDate: new Date("2025-09-20") },
-      { startDate: new Date("2025-10-20"), endDate: new Date("2025-10-23") },
+      { startDate: new Date("2025-10-20"), endDate: new Date("2025-10-25") },
     ];
 
     const disabledDates: Date[] = [...disabledDateArray]; // Include dynamically added dates
