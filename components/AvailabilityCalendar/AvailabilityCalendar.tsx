@@ -109,6 +109,11 @@ export const bookings = [
     to: new Date("10-26-2025"),
     middayCheckout: true,
   },
+  {
+    from: new Date("05-24-2026"),
+    to: new Date("06-04-2026"),
+    middayCheckout: true,
+  },
 ];
 
 function AvailabilityCalendar() {
