@@ -37,7 +37,7 @@ function ContactInfo() {
               {/* {ContactData.data[0].we_speak} */}
               We Speak:
             </li>
-            <li className="font-Bold">Croatian, English, German</li>
+            <li className="font-Bold">Croatian, English</li>
           </ul>
         </div>
       </div>
