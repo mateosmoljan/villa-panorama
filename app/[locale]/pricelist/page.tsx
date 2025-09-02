@@ -47,9 +47,9 @@ function Pricelist() {
           <h2 className="block font-bold text-3xl text-dark_blue_black mb-10 ">
             {TitleData.data[0].title3}
           </h2>
-          <div className="pt-2">
+          {/* <div className="pt-2">
             <AvailabilityCalendar />
-          </div>
+          </div> */}
         </div>
         <div className="py-10 bg-gray-100">
           <div className="container">
