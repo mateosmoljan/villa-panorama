@@ -139,6 +139,10 @@ export const Features: features[] = [
   },
   // Heating and cooling
   {
+    icon: pool,
+    icon_alt: "",
+  },
+  {
     icon: air_conditioner,
     icon_alt: "",
   },

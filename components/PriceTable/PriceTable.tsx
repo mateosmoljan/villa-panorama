@@ -32,7 +32,7 @@ const rows = [
   createData("01.11. - 31.11.", 200, 16, 3),
   createData("01.12. - 22.12.", 300, 16, 3),
   createData("23.12. - 27.8.", 500, 16, 3),
-  createData("28.12. - 01.01.", 1000, 16, 3),
+  createData("28.12. - 01.01.", 1100, 16, 3),
 ];
 
 export default function PriceTable() {
