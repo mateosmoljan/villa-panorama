@@ -12,7 +12,7 @@ function createData(
   period: string,
   price: number,
   persons: number,
-  stay: number
+  stay: number,
 ) {
   return { period, price, persons, stay };
 }
@@ -24,7 +24,7 @@ const rows = [
   createData("01.04. - 30.04.", 280, 16, 3),
   createData("01.05. - 31.05.", 350, 16, 3),
   createData("01.06. - 30.06.", 600, 16, 3),
-  createData("01.07. - 31.08.", 1100, 16, 3),
+  createData("01.07. - 31.08.", 950, 16, 3),
   createData("01.09. - 12.09.", 500, 16, 3),
   createData("13.09. - 22.09.", 400, 16, 3),
   createData("23.09. - 30.09.", 350, 16, 3),
