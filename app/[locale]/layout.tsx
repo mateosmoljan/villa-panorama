@@ -1,67 +1,64 @@
 import React from "react";
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import { Arbutus_Slab, Poppins } from "next/font/google";
 import Navbar from "@/components/Navigation/Navbar";
 import Footer from "@/components/Footer/Footer";
-import GoogleAnalytics from "@/components/GoogleAnalytics/GoogleAnalitics";
+import { GoogleAnalytics } from "@next/third-parties/google";
+import { OG_IMAGE, SITE_NAME, SITE_URL } from "@/lib/seo";
 
 const arbutus = Arbutus_Slab({
   subsets: ["latin"],
   weight: ["400"],
   variable: "--font-arbutus",
+  display: "swap",
+  preload: true,
 });
 
 const poppins = Poppins({
   subsets: ["latin"],
   weight: ["400", "600", "700", "900"],
   variable: "--font-poppins",
+  display: "swap",
+  preload: true,
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "Villa Panorama",
   description:
-    "Welcome to Villa Panorama, your luxurious accommodation in Istria. Experience breathtaking views, modern amenities, and personalized service. ⭐⭐⭐⭐⭐",
+    "Luxury villa accommodation in Istria with private pool, panoramic views, premium amenities, and easy access to local attractions.",
   icons: {
     icon: "/assets/images/logo.png",
   },
-  generator: "Next.js",
-  applicationName: "Accommodation Villa Panorama",
-  referrer: "origin-when-cross-origin",
+  applicationName: SITE_NAME,
   keywords: ["Accommodation", "Villa Panorama", "Istria", "Croatia"],
   robots: "index, follow",
-  viewport: "width=device-width, initial-scale=1.0",
   openGraph: {
     type: "website",
-    title: "Accommodation Villa Panorama - Istria",
+    title: "Villa Panorama",
     description:
-      "Welcome to Villa Panorama, your luxurious accommodation in Istria. Experience breathtaking views, modern amenities, and personalized service. ⭐⭐⭐⭐⭐",
-    url: "https://villapanoramaistria.com",
+      "Luxury villa accommodation in Istria with private pool, panoramic views, premium amenities, and easy access to local attractions.",
+    url: SITE_URL,
+    images: [{ url: OG_IMAGE, width: 1600, height: 1067, alt: "Villa Panorama" }],
   },
   twitter: {
     card: "summary_large_image",
-    // site: "@YourTwitterHandle",
-    title: "Accommodation Villa Panorama - Istria",
+    title: "Villa Panorama",
     description:
-      "Welcome to Villa Panorama, your luxurious accommodation in Istria. Experience breathtaking views, modern amenities, and personalized service. ⭐⭐⭐⭐⭐",
-    images: [
-      {
-        url: "https://www.villapanoramaistria.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2F27.92c57344.jpg&w=3840&q=75",
-        alt: "Villa Panorama",
-      },
-    ],
+      "Luxury villa accommodation in Istria with private pool, panoramic views, premium amenities, and easy access to local attractions.",
+    images: [OG_IMAGE],
   },
-  authors: [
-    { name: "Boost Web" },
-    { name: "Boost Web", url: "https://boostweb.io" },
-  ],
-  creator: "Boost Web",
-  publisher: "Boost Web",
   formatDetection: {
     email: false,
     address: false,
     telephone: false,
   },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -71,15 +68,37 @@ export default function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
+  const ldJson = {
+    "@context": "https://schema.org",
+    "@type": "LodgingBusiness",
+    name: "Villa Panorama",
+    url: SITE_URL,
+    image: [OG_IMAGE],
+    description:
+      "Luxury vacation villa in Istria with private pool and premium amenities.",
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Istria",
+      addressCountry: "HR",
+    },
+    sameAs: [SITE_URL],
+  };
+
   return (
     <html lang={locale}>
-      <GoogleAnalytics />
       <body
         className={`${poppins.variable} font-poppins ${arbutus.variable} font-arbutus`}
       >
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(ldJson) }}
+        />
         <Navbar />
         {children}
         <Footer />
+        {process.env.NEXT_PUBLIC_MEASUREMENT_ID ? (
+          <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_MEASUREMENT_ID} />
+        ) : null}
       </body>
     </html>
   );

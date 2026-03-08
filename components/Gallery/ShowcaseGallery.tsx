@@ -52,6 +52,7 @@ function ShowcaseGallery() {
                   src={PropertyGalleryLib.images[0].src}
                   alt={PropertyGalleryLib.images[0].alt}
                   placeholder="blur"
+                  sizes="(max-width: 640px) 100vw, 50vw"
                   className="cursor-pointer object-cover rounded-md block w-full h-full hover:opacity-90"
                   onClick={() => handleImageClick(0)}
                 />
@@ -67,6 +68,7 @@ function ShowcaseGallery() {
                     src={image.src}
                     alt={image.alt}
                     placeholder="blur"
+                    sizes="(max-width: 640px) 50vw, 25vw"
                     className="relative cursor-pointer object-cover h-full rounded-md block w-full hover:opacity-90"
                     onClick={() => handleImageClick(index + 1)}
                   />

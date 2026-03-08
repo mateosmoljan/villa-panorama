@@ -4,7 +4,6 @@ import { createContext, useContext, useState } from "react";
 import { FaMap } from "react-icons/fa";
 import GoogleMaps from "../About/GoogleMaps";
 import { TouristImageData } from "@/lib/TouristImageData";
-import GuideGallery from "./GuideGallery";
 import Gallery from "./Gallery";
 import { getEnvironsData } from "@/lib/environs";
 import { useLocale } from "next-intl";
@@ -68,6 +67,7 @@ function FourGallery({ mapButton, range }: Props) {
                       src={image.src}
                       alt={image.alt}
                       placeholder="blur"
+                      sizes="(max-width: 640px) 100vw, (max-width: 768px) 50vw, 25vw"
                       className="relative cursor-pointer object-cover h-full rounded-md block w-full hover:opacity-90 aspect-video md:aspect-square"
                       onClick={() =>
                         handleImageClick(index + (range?.start || 0))
