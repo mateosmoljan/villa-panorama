@@ -9,7 +9,7 @@ import NavPath from "@/components/NavPath/NavPath";
 import Photogalleries from "@/components/Gallery/Photogalleries";
 import SendMessage from "@/components/SendMessage/SendMessage";
 import TouristGuide from "@/components/TouristGuide/TouristGuide";
-import { createPageMetadata } from "@/lib/seo";
+import { createPageMetadata, getVacationRentalJsonLd } from "@/lib/seo";
 
 export function generateMetadata({
   params: { locale },
@@ -19,12 +19,15 @@ export function generateMetadata({
   return createPageMetadata(locale, "home");
 }
 
-export default function Home() {
+export default function Home({ params: { locale } }: { params: { locale: string } }) {
+  const jsonLd = getVacationRentalJsonLd(locale);
+
   return (
     <div>
       <HeadSwiper />
       <main>
         <h1 className="sr-only">Villa Panorama</h1>
+        <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }} />
         <NavPath homePage />
         <About />
         <Distances />

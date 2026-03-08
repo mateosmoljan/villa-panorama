@@ -27,14 +27,14 @@ import hrData from "@/messages/hr.json";
 import itData from "@/messages/it.json";
 
 const imageData: LocationData[] = [
-  { src: one, alt: "Villa Panorama stone courtyard in Gajana, Istria" },
-  { src: two, alt: "Villa Panorama jacuzzi area in Gajana, Istria" },
-  { src: three, alt: "Villa Panorama rustic fireplace in Gajana, Istria" },
-  { src: four, alt: "Villa Panorama dining table in Gajana, Istria" },
-  { src: five, alt: "Villa Panorama billiards room in Gajana, Istria" },
-  { src: six, alt: "Villa Panorama villa entrance in Gajana, Istria" },
-  { src: seven, alt: "Villa Panorama swimming pool in Gajana, Istria" },
-  { src: eight, alt: "Villa Panorama pool at night in Gajana, Istria" },
+  { src: one, alt: "Villa Panorama with panoramic sea view in Gajana, Istria" },
+  { src: two, alt: "Villa Panorama jacuzzi and pool area" },
+  { src: three, alt: "Villa Panorama traditional stone fireplace retreat" },
+  { src: four, alt: "Villa Panorama modern dining room interior" },
+  { src: five, alt: "Villa Panorama pool table and games room" },
+  { src: six, alt: "Villa Panorama entrance and exterior" },
+  { src: seven, alt: "Villa Panorama private pool surrounded by nature" },
+  { src: eight, alt: "Villa Panorama night view of swimming pool" },
 ];
 
 const replaceTitlesAndDescriptions = (

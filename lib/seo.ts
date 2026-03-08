@@ -17,6 +17,7 @@ const amenityFeature = [
   "Panoramic Views",
   "Free Wi-Fi",
   "Free Parking",
+  "Karaoke",
 ];
 
 const defaultTitles: Record<AppLocale, string> = {
@@ -99,17 +100,14 @@ export function createPageMetadata(locale: string, page: PageKey, path = ""): Me
   };
 }
 
-export function getVacationRentalJsonLd(locale: string) {
-  const safeLocale = locales.includes(locale as AppLocale) ? (locale as AppLocale) : "en";
-
+export function getVacationRentalJsonLd(_locale: string) {
   return {
     "@context": "https://schema.org",
     "@type": "VacationRental",
-    name: SITE_NAME,
-    url: `${SITE_URL}/${safeLocale}`,
-    image: [OG_IMAGE],
-    description: defaultDescriptions[safeLocale],
-    numberOfRooms: 7,
+    name: "Villa Panorama",
+    description: "Luxury holiday villa in Gajana, Istria with panoramic sea views, 7 bedrooms, 68m² pool, jacuzzi. Sleeps 16.",
+    url: "https://www.villapanoramaistria.com",
+    image: "https://www.villapanoramaistria.com/assets/images/outside/27.jpg",
     address: {
       "@type": "PostalAddress",
       addressLocality: "Gajana",
@@ -121,11 +119,17 @@ export function getVacationRentalJsonLd(locale: string) {
       latitude: 44.8833,
       longitude: 13.85,
     },
+    numberOfRooms: 7,
+    occupancy: {
+      "@type": "QuantitativeValue",
+      maxValue: 16,
+    },
     amenityFeature: amenityFeature.map((name) => ({
       "@type": "LocationFeatureSpecification",
       name,
       value: true,
     })),
-    sameAs: [SITE_URL],
+    petsAllowed: false,
+    smokingAllowed: false,
   };
 }
