@@ -1,11 +1,4 @@
 "use client";
-import {
-  Alert,
-  Button,
-  FormControl,
-  InputLabel,
-  TextField,
-} from "@mui/material";
 import React, { FormEvent, useRef, useState } from "react";
 import HolidayHome from "./Inputs/HolidayHome";
 import Adults from "./Inputs/Adults";
@@ -13,48 +6,33 @@ import Children from "./Inputs/Children";
 import { IoIosSend } from "react-icons/io";
 import DataRangeComponent from "./Inputs/DateRangeComponent";
 import emailjs from "@emailjs/browser";
-import { MuiTelInput } from "mui-tel-input";
 import "./style.css";
-import { useLocale } from "next-intl";
-import { getContactData } from "@/lib/contact";
 
 function ContactForm() {
-  const form = useRef(null);
-  const [messageSent, setMessageSent] = useState<boolean>(false);
-  const [email, setEmail] = useState<string>("");
-  const [isValidEmail, setIsValidEmail] = useState<boolean>(true);
-  const [value, setValue] = React.useState("");
-  const localeActive = useLocale();
-  const ContactData = getContactData(localeActive);
+  const form = useRef<HTMLFormElement | null>(null);
+  const [messageSent, setMessageSent] = useState(false);
 
   const sendEmail = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+    if (!form.current) return;
+
+    const formData = new FormData(form.current);
+    if (formData.get("invalidRange") === "true") {
+      alert("Selected dates include unavailable dates. Please choose different dates.");
+      return;
+    }
 
     setMessageSent(true);
+    setTimeout(() => setMessageSent(false), 10000);
 
-    setTimeout(() => {
-      setMessageSent(false);
-    }, 10000);
-    if (form.current) {
-      emailjs
-        .sendForm("service_m5qzdsw", "template_zep0zp8", form.current, {
-          publicKey: "BdpxxwkLBQvz91RXx",
-        })
-        .then(
-          () => {
-            console.log("SUCCESS!");
-            setEmail("");
-            setValue("");
-          },
-          (error) => {
-            console.log("FAILED...", error.text);
-          }
-        );
-    }
-  };
-
-  const handleChange = (newValue: string) => {
-    setValue(newValue);
+    emailjs
+      .sendForm("service_m5qzdsw", "template_zep0zp8", form.current, {
+        publicKey: "BdpxxwkLBQvz91RXx",
+      })
+      .then(() => {
+        form.current?.reset();
+      })
+      .catch(() => undefined);
   };
 
   return (
@@ -62,52 +40,19 @@ function ContactForm() {
       <form ref={form} onSubmit={sendEmail} className="w-full">
         <div className="flex flex-col sm:flex-row w-full items-end">
           <div className="w-full sm:w-1/2 mb-4 px-2">
-            <TextField
-              required
-              id="outlined-required"
-              name="from_name"
-              className="w-full bg-white"
-              InputLabelProps={{
-                className: "!font-Bold ",
-              }}
-              label="Name"
-              size="small"
-            />
+            <label className="mb-1 block text-sm font-Bold">Name</label>
+            <input required name="from_name" className="w-full bg-white rounded-md border border-gray-300 h-10 px-3" />
           </div>
           <div className="w-full sm:w-1/2 mb-4 px-2">
-            <TextField
-              required
-              id="outlined-required"
-              className="w-full bg-white rounded-md"
-              InputLabelProps={{
-                className: "!font-Bold",
-              }}
-              name="user_email"
-              type="email"
-              label="Email:"
-              size="small"
-              style={{
-                border: isValidEmail ? "" : "1px solid red",
-              }}
-            />
-            {!isValidEmail && (
-              <p style={{ color: "red" }}>Please enter a valid email address</p>
-            )}
+            <label className="mb-1 block text-sm font-Bold">Email</label>
+            <input required name="user_email" type="email" className="w-full bg-white rounded-md border border-gray-300 h-10 px-3" />
           </div>
         </div>
+
         <div className="flex flex-col sm:flex-row w-full items-end">
-          <div className="w-full sm:w-1/2 px-2 mb-4 phone_input">
-            <InputLabel id="outlined-required" className="font-Bold">
-              {ContactData.data[0].phone}
-            </InputLabel>
-            <MuiTelInput
-              id="outlined-required"
-              value={value}
-              required
-              onChange={handleChange}
-              className="w-full bg-white rounded-md h-[40px]"
-              defaultCountry="US"
-            />
+          <div className="w-full sm:w-1/2 px-2 mb-4">
+            <label className="mb-1 block text-sm font-Bold">Phone</label>
+            <input required name="phone" type="tel" className="w-full bg-white rounded-md border border-gray-300 h-10 px-3" />
           </div>
           <div className="w-full sm:w-1/2 mb-4 px-2">
             <HolidayHome />
@@ -122,53 +67,27 @@ function ContactForm() {
             <Children />
           </div>
         </div>
-        <div>
-          <DataRangeComponent />
+
+        <DataRangeComponent />
+
+        <div className="flex w-full mb-4 px-2">
+          <div className="w-full">
+            <label className="mb-1 block text-sm font-Bold">Inquiry</label>
+            <textarea required rows={5} name="message" className="bg-white w-full rounded-md border border-gray-300 p-3" />
+          </div>
         </div>
-        <div className="flex w-full mb-4 px-2 ">
-          <TextField
-            InputLabelProps={{
-              className: "!font-Bold",
-            }}
-            id="filled-multiline-static"
-            label="Inquiry"
-            className="bg-white w-full !font-Bold"
-            multiline
-            rows={5}
-            name="message"
-            variant="outlined"
-            required
-          />
-        </div>
+
         <p className="text-xs mb-4 text-grey3">
-          {/* {ContactData.data[0].des} */}
-          The content of this form will be sent directly to the e-mail address
-          of the owner of accommodation and is used exclusively for sending
-          inquiries about booking of listed property.
+          The content of this form will be sent directly to the e-mail address of the owner of accommodation and is used exclusively for sending inquiries about booking of listed property.
         </p>
+
         <div className="px-4">
-          <Button
+          <button
             type="submit"
-            variant="contained"
-            className={`${
-              messageSent
-                ? "bg-[#EDF7ED] hover:bg-[#EDF7ED]"
-                : "!bg-yellow hover:bg-yellow"
-            } w-full tracking-widest text-base font-Bold py-3`}
+            className={`${messageSent ? "bg-[#EDF7ED]" : "!bg-yellow hover:bg-yellow"} w-full tracking-widest text-base font-Bold py-3 rounded-md flex items-center justify-center gap-2`}
           >
-            {messageSent ? (
-              <Alert severity="success" className="">
-                {/* {ContactData.data[0].sent} */}
-                Successfully sent
-              </Alert>
-            ) : (
-              <>
-                {/* {ContactData.data[0].button} */}
-                Send Inquiry
-                <IoIosSend className="text-2xl" />
-              </>
-            )}
-          </Button>
+            {messageSent ? "Successfully sent" : <><span>Send Inquiry</span><IoIosSend className="text-2xl" /></>}
+          </button>
         </div>
       </form>
     </div>

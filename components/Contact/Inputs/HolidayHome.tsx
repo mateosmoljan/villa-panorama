@@ -1,45 +1,21 @@
-import { getContactData } from "@/lib/contact";
-import {
-  FormControl,
-  InputLabel,
-  MenuItem,
-  Select,
-  SelectChangeEvent,
-} from "@mui/material";
-import { useLocale } from "next-intl";
 import React from "react";
 
 function HolidayHome() {
-  const [home, setHome] = React.useState("");
-  const localeActive = useLocale();
-  const ContactData = getContactData(localeActive);
-
-  const handleChange = (event: SelectChangeEvent) => {
-    setHome(event.target.value as string);
-  };
+  const [home, setHome] = React.useState("Villa Panorama");
 
   return (
-    <FormControl fullWidth>
-      <InputLabel id="demo-simple-select-label" className="!font-Bold">
-        Holiday Home
-      </InputLabel>
-      <Select
+    <div className="w-full">
+      <label className="mb-1 block font-Bold text-sm">Holiday Home</label>
+      <select
         required
-        labelId="demo-simple-select-label"
-        className="w-full bg-white"
-        id="demo-simple-select"
-        size="small"
         name="holidayHome"
         value={home}
-        label="Holiday home"
-        onChange={handleChange}
-        placeholder="Holiday home"
+        onChange={(e) => setHome(e.target.value)}
+        className="w-full h-10 rounded-md border border-gray-300 bg-white px-3"
       >
-        <MenuItem value={"Villa Panorama"} className="!pl-4">
-          Villa Panorama
-        </MenuItem>
-      </Select>
-    </FormControl>
+        <option value="Villa Panorama">Villa Panorama</option>
+      </select>
+    </div>
   );
 }
 

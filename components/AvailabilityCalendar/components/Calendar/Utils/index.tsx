@@ -1,7 +1,4 @@
-import dayjs from "dayjs";
-import customParseFormat from "dayjs/plugin/customParseFormat";
-dayjs.extend(customParseFormat);
-
+import { format, eachDayOfInterval, getYear, parse } from "date-fns";
 import {
   BookingType,
   blockedDaysType,
@@ -16,10 +13,8 @@ import {
   DaysOfWeekOffsetType,
   DayOffset,
 } from "./../types";
-import { useLocale, useTranslations } from "next-intl";
-import { getCalendarData } from "@/lib/Calendar";
 
-const dateFormat = "M-D-YYYY";
+const dateFormat = "M-d-yyyy";
 
 export const daysOfTheWeek: DaysOfWeekType = [
   Days.Monday,
@@ -41,140 +36,50 @@ export const daysOfTheWeekOffset: DaysOfWeekOffsetType = [
   DayOffset.Sunday,
 ];
 
-export const isValidMonthsOption = (numOfMonths: number): boolean => {
-  if (!numOfMonths || typeof numOfMonths !== "number") return false;
-
-  const validOptions = [12, 4, 2, 1];
-  const isValid = validOptions.includes(numOfMonths);
-
-  return isValid;
-};
+export const isValidMonthsOption = (numOfMonths: number): boolean => [12, 4, 2, 1].includes(numOfMonths);
 
 export const getMonthName = (month: number): string | undefined => {
-  const localeActive = useLocale();
-  const CalendarData = getCalendarData(localeActive);
   const months: IGetMonthName = {
-    1: CalendarData.data[0].one,
-    2: CalendarData.data[0].two,
-    3: CalendarData.data[0].three,
-    4: CalendarData.data[0].four,
-    5: CalendarData.data[0].five,
-    6: CalendarData.data[0].six,
-    7: CalendarData.data[0].seven,
-    8: CalendarData.data[0].eight,
-    9: CalendarData.data[0].nine,
-    10: CalendarData.data[0].ten,
-    11: CalendarData.data[0].eleven,
-    12: CalendarData.data[0].twelve,
+    1: "January", 2: "February", 3: "March", 4: "April", 5: "May", 6: "June",
+    7: "July", 8: "August", 9: "September", 10: "October", 11: "November", 12: "December",
   };
 
   return months[month];
 };
 
-export const formatBookingsData = ({
-  bookings,
-  year,
-}: IFormatBookingsData): BookingType[] => {
+export const formatBookingsData = ({ bookings, year }: IFormatBookingsData): BookingType[] => {
   if (!Array.isArray(bookings) || bookings.length < 1) return [];
 
-  const arr: BookingType[] = [];
-
-  bookings.forEach((booking) => {
-    const from = booking?.from;
-    const to = booking?.to;
-    const middayCheckout = booking?.middayCheckout;
-
-    const validStartDate = dayjs(from).year() === Number(year);
-    const validEndDate = dayjs(to).year() === Number(year);
-
-    if (!validStartDate && !validEndDate) return null;
-
-    const nxtBooking: BookingType = {
-      from: dayjs(from).format(dateFormat),
-      to: dayjs(to).format(dateFormat),
-      middayCheckout,
-    };
-
-    arr.push(nxtBooking);
-  });
-
-  return arr;
+  return bookings
+    .filter((booking) => {
+      const from = new Date(booking.from);
+      const to = new Date(booking.to);
+      return getYear(from) === Number(year) || getYear(to) === Number(year);
+    })
+    .map((booking) => ({
+      from: format(new Date(booking.from), dateFormat),
+      to: format(new Date(booking.to), dateFormat),
+      middayCheckout: booking.middayCheckout,
+    }));
 };
 
-export const getDatesInRange = ({
-  startDate,
-  endDate,
-}: IGetDatesInRange): blockedDaysType => {
-  let _startDate = dayjs(startDate, "M-D-YYYY");
-  const _endDate = dayjs(endDate, "M-D-YYYY");
-
-  const dates: blockedDaysType = [];
-
-  while (!_startDate.isAfter(_endDate)) {
-    dates.push(_startDate.format(dateFormat));
-
-    _startDate = _startDate.add(1, "day");
-  }
-
-  return dates;
+export const getDatesInRange = ({ startDate, endDate }: IGetDatesInRange): blockedDaysType => {
+  const from = typeof startDate === "string" ? parse(startDate, dateFormat, new Date()) : startDate;
+  const to = typeof endDate === "string" ? parse(endDate, dateFormat, new Date()) : endDate;
+  return eachDayOfInterval({ start: from, end: to }).map((d) => format(d, dateFormat));
 };
 
-export const getAllBookedDays = ({
-  dates,
-}: IGetAllBookedDays): blockedDaysType => {
+export const getAllBookedDays = ({ dates }: IGetAllBookedDays): blockedDaysType => {
   if (!Array.isArray(dates) || dates.length < 1) return [];
-
-  const arr: blockedDaysType = [];
-
-  dates.forEach(({ to, from }) => {
-    const nxt = getDatesInRange({ startDate: from, endDate: to });
-
-    nxt.forEach((_date) => {
-      arr.push(_date);
-    });
-  });
-
-  return arr;
+  return dates.flatMap(({ to, from }) => getDatesInRange({ startDate: from, endDate: to }));
 };
-
-// export const getAllHalfDays = ({ dates }: IGetAllHalfDays): blockedDaysType => {
-//   if (!Array.isArray(dates) || dates.length < 1) return []
-
-//   const arr: blockedDaysType = []
-
-//   dates.forEach(({ to, middayCheckout }) => {
-//     if (middayCheckout && typeof to === 'string') {
-//       arr.push(to)
-//     }
-//   })
-
-//   return arr
-// }
 
 export const getAllHalfDays = ({ dates }: IGetAllHalfDays): blockedDaysType => {
   if (!Array.isArray(dates) || dates.length < 1) return [];
-
-  const arr: blockedDaysType = [];
-
-  dates.forEach(({ from, to, middayCheckout }) => {
-    if (middayCheckout && typeof from === "string" && typeof to === "string") {
-      arr.push(to);
-    }
-  });
-
-  return arr;
+  return dates.filter((d) => d.middayCheckout && typeof d.to === "string").map((d) => d.to as string);
 };
 
-export const handleBookings = ({
-  bookings,
-  year,
-}: IHandleBookings): {
-  halfDays: blockedDaysType;
-  bookedDays: blockedDaysType;
-} => {
+export const handleBookings = ({ bookings, year }: IHandleBookings): { halfDays: blockedDaysType; bookedDays: blockedDaysType } => {
   const dates = formatBookingsData({ bookings, year });
-  const bookedDays = getAllBookedDays({ dates });
-  const halfDays = getAllHalfDays({ dates });
-
-  return { halfDays, bookedDays };
+  return { halfDays: getAllHalfDays({ dates }), bookedDays: getAllBookedDays({ dates }) };
 };

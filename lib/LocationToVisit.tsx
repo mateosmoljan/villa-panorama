@@ -1,7 +1,7 @@
-import { ReactJSXElement } from "@emotion/react/types/jsx-namespace";
+import { ReactNode } from "react";
 
 type LocationToVisitData = {
-  placeToVisit: ReactJSXElement;
+  placeToVisit: ReactNode;
   des?: string;
 };
 
