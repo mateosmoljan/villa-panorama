@@ -26,20 +26,17 @@ import deData from "@/messages/de.json";
 import hrData from "@/messages/hr.json";
 import itData from "@/messages/it.json";
 
-// Define image data
 const imageData: LocationData[] = [
-  { src: one, alt: "Draw Well Villa Panorama Istra" },
-  { src: two, alt: "Jacuzzi Villa Panorama Istra" },
-  { src: three, alt: "Fireplace Villa Panorama Istra" },
-  { src: four, alt: "Dinning table Villa Panorama Istra" },
-  { src: five, alt: "Pool Table Villa Panorama Istra" },
-  { src: six, alt: "Entrance" },
-  { src: seven, alt: "Swimming Pool Villa Panorama Istra" },
-  { src: eight, alt: "Swimming Pool at night Villa Panorama Istra" },
-  // Define other image data similarly
+  { src: one, alt: "Villa Panorama stone courtyard in Gajana, Istria" },
+  { src: two, alt: "Villa Panorama jacuzzi area in Gajana, Istria" },
+  { src: three, alt: "Villa Panorama rustic fireplace in Gajana, Istria" },
+  { src: four, alt: "Villa Panorama dining table in Gajana, Istria" },
+  { src: five, alt: "Villa Panorama billiards room in Gajana, Istria" },
+  { src: six, alt: "Villa Panorama villa entrance in Gajana, Istria" },
+  { src: seven, alt: "Villa Panorama swimming pool in Gajana, Istria" },
+  { src: eight, alt: "Villa Panorama pool at night in Gajana, Istria" },
 ];
 
-// Function to replace titles and descriptions with translations from JSON files
 const replaceTitlesAndDescriptions = (
   data: LocationData[],
   titles: string[],
@@ -54,7 +51,6 @@ const replaceTitlesAndDescriptions = (
   }));
 };
 
-// Define the data object
 export const HeadSwiperLibEN: DataObject = {
   images: replaceTitlesAndDescriptions(
     imageData,
@@ -64,7 +60,6 @@ export const HeadSwiperLibEN: DataObject = {
   ),
 };
 
-// You can also define a separate object for German translations if needed
 export const HeadSwiperLibDE: DataObject = {
   images: replaceTitlesAndDescriptions(
     imageData,
@@ -103,6 +98,6 @@ export const getHeadSwiperLib = (language: string): DataObject => {
     case "it":
       return HeadSwiperLibIT;
     default:
-      return HeadSwiperLibEN; // Default to English
+      return HeadSwiperLibEN;
   }
 };

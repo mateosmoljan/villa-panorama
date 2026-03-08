@@ -23,34 +23,24 @@
     ],
     "navLinksButton": "Rezerviraj"
   },
-
   "HeaderSwiper": {
     "titles": [
-      "Dobrodošli u Villa Panorama - Istra",
-      "Raj s jacuzzijem",
-      "Rustikalni kamin odmor",
-      "Moderan dizajn i prostrani blagovaonski stol",
-      "Stilski bilijarski stol",
-      "Ugodan ulaz",
-      "Nebo Aqua",
-      "Tihi bazen pod zvijezdama"
+      "Villa Panorama — Vila s pogledom na more u Gajani, Istra",
+      "Bazen od 68m² · Jacuzzi · Panoramska terasa",
+      "7 soba · Za 16 gostiju · Priroda i privatnost",
+      "5 minuta od Nacionalnog parka Brijuni"
     ],
     "descriptions": [
-      "Tihi oaza u vili",
-      "Uživajte u konačnom doživljaju opuštanja dok se opuštate u jacuzziju",
-      "Zagrlite toplinu i šarm tradicionalnog istarskog kamina 'Kažun' u Vili Panorama, gdje se ugodne večeri provode u rustikalnom miru.",
-      "Uživajte u opuštenim okupljanjima na prostranom blagovaonskom stolu",
-      "Opuštajte se uz partiju bilijara na elegantnom bilijarskom stolu",
-      "Elegantan ulaz koji besprijekorno spaja moderan dizajn i gostoljubivu atmosferu i poziva vas na opuštanje u stilu.",
-      "Moderan odmor s privatnim bazenom, uklopljen u zagrljaj prirode",
-      "Tihi bazen pod zvijezdama"
+      "Luksuzna vila za odmor u Gajani s panoramskim pogledom na more i potpunom privatnošću.",
+      "Uronite u bazen s vodopadom, a zatim se opustite u jacuzziju pod zvijezdama.",
+      "Savršena vila za grupe i obitelji koje traže prirodu, mir i luksuz.",
+      "Istražite Brijunske otoke, fažansku luku i cijelu Istru od vaših vrata."
     ],
     "button": "Pročitaj više"
   },
-
   "About": {
-    "title": "Pregled",
-    "des": "Predivna **Villa Panorama Istria** okružena **prirodom**. To je idealno mjesto za **odmor** za sve ljubitelje **miru**, **tišine** i **prirode**. Vila od **520 kvadratnih metara** smještena je na parceli od **2500 m2**. Na raspolaganju vam je prekrasan **vrt** i velika **livada** za igru i **zabavu** (**trampolin**, **golovi za nogomet**). Vila je pažljivo **namještena**, s **kvalitetnim namještajem** i velikom pažnjom na detalje. **Tradicionalni** i **moderni elementi** sjedinjuju se kako bi stvorili **zanimljivu** cjelinu.",
+    "title": "Pregled Ville Panorama",
+    "des": "Villa Panorama je luksuzna vila za odmor u Gajani, Istra, s prekrasnim panoramskim pogledom na more s velike terase. Okružena prirodom u potpunom miru i tišini, ova vila od 520m² nalazi se na parceli od 2500m² s bazenom od 68m² s zračnom masažom i vodopadom, jacuzzijem, saunom, fitness prostorom i tradicionalnim istarskim kazunom s roštiljem. 7 soba za do 16 gostiju. Zabava uključuje karaoke, biljar, pikado, stolni nogomet, 8 bicikala, trampolin i nogometne golove. U blizini NP Brijuni. Nepušačka vila. Kućni ljubimci nisu dopušteni.",
     "the_space": {
       "title": "Prostor",
       "des": "Ispred vile nalazi se prostrana ljetna kuhinja s kaminom na drva koji služi za objedovanje i zabavu (stolni nogomet, piccado i bilijar). Također postoji radna soba i kupaonica. Osim ljetne kuhinje, tu je i **68 kvadratnih metara bazen s masažnim mlaznicama, vodopadom**. Tradicionalna posebnost je istarski kažun izgrađen u kamenoj stilu. Sastoji se od vatrene jame za postavljanje roštilja ili pečenja za objedovanje. Posebno je atraktivna velika terasa koja se proteže s jedne strane vile s pogledom na more i okolna zelena područja, što je čini idealnim mjestom za objedovanje i odmor.",
@@ -71,7 +61,6 @@
       ]
     }
   },
-
   "Distances": {
     "title": "Udaljenosti od Ville Panorama",
     "button": "Prikaži Mapu",
@@ -90,7 +79,6 @@
       "Zračna luka"
     ]
   },
-
   "Acommodation": {
     "subtitle": "Smještaj",
     "title": "Nudimo vam 1 Vilu",
@@ -99,15 +87,14 @@
     "card_des2": "Cijena od",
     "card_des3": "po noći"
   },
-
   "Photogalleries": {
     "subtitle": "Fotogalerije",
-    "title": "Odaberite fotografije iz Ville Panorama",
+    "title": "Foto galerije — Villa Panorama u Gajani",
     "button": "Prikaži fotogaleriju"
   },
   "Tourist_Guide": {
     "subtitle": "VODIČ ZA TURISTE",
-    "title": "Što posjetiti, vidjeti i raditi?",
+    "title": "Turistički vodič — Istru istražite iz Ville Panorama",
     "image_des": [
       "Najveći u Hrvatskoj",
       "Nacionalni park",
@@ -118,11 +105,11 @@
     ]
   },
   "Send_Message": {
-    "des": "Molimo vas **Pošaljite nam** odgovor ako želite pripadati Vili Panorama u Istri i osigurati svoju rezervaciju?",
+    "des": "Pošaljite nam poruku za rezervaciju Ville Panorama u Gajani, Istra.",
     "button": "Pošalji poruku"
   },
   "Footer": {
-    "year": "©2024 . Villa Panorama - Istra",
+    "year": "©2024 . Villa Panorama — Kuća za odmor u Gajani, Istra",
     "rights": "Sva prava pridržana",
     "created_by": "Web stranica od BoostWeb",
     "Discover": {
@@ -137,10 +124,15 @@
     }
   },
   "Categorization": {
-    "title": ["Kategorizacija", "Kapacitet", "Veličina", "Vrt"]
+    "title": [
+      "Kategorizacija",
+      "Kapacitet",
+      "Veličina",
+      "Vrt"
+    ]
   },
   "Villa_Description": {
-    "des": "Kamenita luksuzna vila smještena je u Gajani, mirnom mjestu blizu Vodnjana (Dignana). Ova vila s 7 spavaćih soba (svaka sa svojom kupaonicom) savršena je za ljubitelje prirode koji vole opuštajući odmor dalje od gradske buke. Ima mnogo toga za ponuditi svojim gostima.",
+    "des": "Villa Panorama je luksuzna vila za odmor u Gajani, Istra, s prekrasnim panoramskim pogledom na more s velike terase. Okružena prirodom u potpunom miru i tišini, ova vila od 520m² nalazi se na parceli od 2500m² s bazenom od 68m² s zračnom masažom i vodopadom, jacuzzijem, saunom, fitness prostorom i tradicionalnim istarskim kazunom s roštiljem. 7 soba za do 16 gostiju. Zabava uključuje karaoke, biljar, pikado, stolni nogomet, 8 bicikala, trampolin i nogometne golove. U blizini NP Brijuni. Nepušačka vila. Kućni ljubimci nisu dopušteni.",
     "subtitle": "Prostor",
     "des2": "Ispred vile nalazi se vanjski bazen (68 m2) s mogućnošću zračne masaže i vodopada sa strane bazena. Prostrana trava nudi dječje igralište s trampolinom i nogometnim golovima. Pokraj bazena nalazi se replika stare istarske kuće nazvane \"kazun\", koja nudi sadržaje za roštiljanje. Prekrasna terasa savršeno je mjesto za uživanje u obroku. Još jedno mjesto za objedovanje je ljetna kuhinja, koja se nalazi unutar prostorije za igre s pikadom, biljarom i stolnim nogometom. Soba za ljepotu pored vile nudi saunu, jacuzzi i opremu za vježbanje. Vila ima sustav nadzora koji snima okolicu vile i pruža sigurnost svojim gostima. Vila može primiti 16 osoba. U vili se nalazi 7 spavaćih soba. U 3 spavaće sobe nalaze se bračni kreveti veličine king size, i u svakoj od njih može se smjestiti 2 osobe. U preostalim sobama (njih 4) nalaze se 2 odvojena kreveta. Netko može spavati i na kaučima u dnevnom boravku, ako to želi.",
     "subtitle2": "Pristup gostiju",

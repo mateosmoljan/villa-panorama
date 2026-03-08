@@ -6,6 +6,19 @@ export const OG_IMAGE = `${SITE_URL}/assets/images/outside/27.jpg`;
 export const locales = ["en", "de", "hr", "it"] as const;
 export type AppLocale = (typeof locales)[number];
 
+const amenityFeature = [
+  "68m² Private Pool",
+  "Jacuzzi",
+  "Sauna",
+  "Fitness Room",
+  "Summer Kitchen",
+  "BBQ Area",
+  "Billiards",
+  "Panoramic Views",
+  "Free Wi-Fi",
+  "Free Parking",
+];
+
 const defaultTitles: Record<AppLocale, string> = {
   en: "Villa Panorama | Holiday Villa in Gajana, Istria",
   de: "Villa Panorama | Ferienvilla in Gajana, Istrien",
@@ -83,5 +96,36 @@ export function createPageMetadata(locale: string, page: PageKey, path = ""): Me
       description: copy.description,
       images: [OG_IMAGE],
     },
+  };
+}
+
+export function getVacationRentalJsonLd(locale: string) {
+  const safeLocale = locales.includes(locale as AppLocale) ? (locale as AppLocale) : "en";
+
+  return {
+    "@context": "https://schema.org",
+    "@type": "VacationRental",
+    name: SITE_NAME,
+    url: `${SITE_URL}/${safeLocale}`,
+    image: [OG_IMAGE],
+    description: defaultDescriptions[safeLocale],
+    numberOfRooms: 7,
+    address: {
+      "@type": "PostalAddress",
+      addressLocality: "Gajana",
+      addressRegion: "Istria",
+      addressCountry: "HR",
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: 44.8833,
+      longitude: 13.85,
+    },
+    amenityFeature: amenityFeature.map((name) => ({
+      "@type": "LocationFeatureSpecification",
+      name,
+      value: true,
+    })),
+    sameAs: [SITE_URL],
   };
 }

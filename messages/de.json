@@ -23,34 +23,24 @@
     ],
     "navLinksButton": "Buchen"
   },
-
   "HeaderSwiper": {
     "titles": [
-      "Willkommen in der Villa Panorama - Istrien",
-      "Jacuzzi-Paradies",
-      "Rustikaler Kaminrückzugsort",
-      "Modernes Design und geräumiger Esstisch",
-      "Stilvoller Billardtisch-Rückzugsort",
-      "Willkommenseingang",
-      "Aqua-Hafen",
-      "Ruhiger Swimmingpool unter den Sternen"
+      "Villa Panorama — Meerblick-Villa in Gajana, Istrien",
+      "68m²-Pool · Jacuzzi · Panoramaterrasse",
+      "7 Schlafzimmer · Für 16 Gäste · Natur & Privatsphäre",
+      "5 Minuten vom Nationalpark Brijuni"
     ],
     "descriptions": [
-      "Ruhige Oase Villa",
-      "Genießen Sie das ultimative Entspannungserlebnis, während Sie im Jacuzzi entspannen",
-      "Erleben Sie die Wärme und den Charme des traditionellen istrischen 'Kažun'-Kamins in der Villa Panorama, wo gemütliche Abende in rustikaler Ruhe verbracht werden.",
-      "Genießen Sie gemütliche Zusammenkünfte um den großzügig dimensionierten Esstisch",
-      "Entspannen Sie sich bei einem Spiel Billard auf dem eleganten Billardtisch",
-      "Eleganter Eingang, der modernes Design und einladende Atmosphäre nahtlos miteinander verbindet und Sie stilvoll zum Entspannen einlädt.",
-      "Ein moderner Rückzugsort mit privatem Pool, eingebettet in die Umarmung der Natur",
-      "Ruhiger Swimmingpool unter den Sternen"
+      "Luxuriöse Ferienvilla in Gajana mit Panorama-Meerblick und vollständiger Privatsphäre.",
+      "Springen Sie in den Pool mit Wasserfall und entspannen Sie danach im Jacuzzi unter den Sternen.",
+      "Die perfekte Villa für Gruppen und Familien, die Natur, Ruhe und Luxus suchen.",
+      "Erkunden Sie die Brijuni-Inseln, den Hafen von Fažana und ganz Istrien von Ihrer Haustür aus."
     ],
     "button": "Mehr erfahren"
   },
-
   "About": {
-    "title": "Übersicht",
-    "des": "Wunderschönes Ferienhaus Villa Panorama Istrien umgeben von Natur. Ein idealer Ort zum Ausruhen für alle Liebhaber von Frieden, Ruhe und Natur. Die Villa mit einer Fläche von 520 Quadratmetern befindet sich auf einem Grundstück von 2500 m². Sie haben einen wunderschönen Garten und eine große Rasenfläche zur Verfügung, um zu spielen und sich zu unterhalten (Trampolin, Fußballtore). Die Villa ist sorgfältig eingerichtet, mit qualitativ hochwertigen Möbeln und großer Liebe zum Detail. Traditionelle und moderne Elemente verschmelzen zu einem interessanten Ganzen.",
+    "title": "Überblick über Villa Panorama",
+    "des": "Villa Panorama ist eine luxuriöse Ferienvilla in Gajana, Istrien, mit atemberaubendem Panorama-Meerblick von der großen Terrasse. Umgeben von Natur in völliger Ruhe liegt diese 520m²-Villa auf einem 2500m²-Grundstück mit 68m²-Pool mit Luftmassage und Wasserfall, Whirlpool, Sauna, Fitnessraum und traditionellem istrischen Kazun mit Grill. 7 Schlafzimmer für bis zu 16 Gäste. Unterhaltung: Karaoke, Billard, Darts, Tischfußball, 8 Fahrräder, Trampolin und Fußballtore. Nahe Nationalpark Brijuni. Nichtraucher-Villa. Keine Haustiere.",
     "the_space": {
       "title": "Der Raum",
       "des": "Vor der Villa befindet sich eine geräumige Sommerküche mit einem Holzkamin, der als Ess- und Unterhaltungsbereich dient (Tischfußball, Piccado und Billard). Außerdem gibt es einen Arbeitsraum und ein Badezimmer. Neben der Sommerküche befindet sich ein 68 Quadratmeter großer Swimmingpool mit Massagedüsen und einem Wasserfall. Eine traditionelle Spezialität ist eine in Stein gebaute istrische Kappe. Sie besteht aus einer Feuerstelle zum Grillen oder Backen. Besonders attraktiv ist die große Terrasse, die sich auf einer Seite der Villa mit Blick auf das Meer und die umliegenden Grünflächen erstreckt, was sie auch zu einem idealen Ort zum Essen und Ausruhen macht.",
@@ -71,7 +61,6 @@
       ]
     }
   },
-
   "Distances": {
     "title": "Entfernungen von der Villa Panorama",
     "button": "Karte anzeigen",
@@ -90,7 +79,6 @@
       "Flughafen"
     ]
   },
-
   "Acommodation": {
     "subtitle": "UNTERKUNFT",
     "title": "Wir bieten Ihnen 1 Villa",
@@ -101,12 +89,12 @@
   },
   "Photogalleries": {
     "subtitle": "FOTOGALERIEN",
-    "title": "Wählen Sie Fotos aus der Villa Panorama aus",
+    "title": "Fotogalerien — Villa Panorama in Gajana",
     "button": "Fotogalerie anzeigen"
   },
   "Tourist_Guide": {
     "subtitle": "TOURISTENFÜHRER",
-    "title": "Was zu besuchen, sehen und tun?",
+    "title": "Reiseführer — Istrien von Villa Panorama aus entdecken",
     "image_des": [
       "Der größte in Kroatien",
       "Nationalpark",
@@ -117,11 +105,11 @@
     ]
   },
   "Send_Message": {
-    "des": "Bitte senden Sie uns eine Antwort, wenn Sie zur Villa Panorama in Istrien gehören möchten und Ihre Reservierung sichern möchten?",
+    "des": "Senden Sie uns eine Nachricht, um die Villa Panorama in Gajana, Istrien, zu buchen.",
     "button": "Nachricht senden"
   },
   "Footer": {
-    "year": "©2024 . Villa Panorama - Istrien",
+    "year": "©2024 . Villa Panorama — Ferienvilla in Gajana, Istrien",
     "rights": "Alle Rechte vorbehalten",
     "created_by": "Webseite von BoostWeb",
     "Discover": {
@@ -136,10 +124,15 @@
     }
   },
   "Categorization": {
-    "title": ["Kategorisierung", "Kapazität", "Größe", "Garten"]
+    "title": [
+      "Kategorisierung",
+      "Kapazität",
+      "Größe",
+      "Garten"
+    ]
   },
   "Villa_Description": {
-    "des": "Die Luxusvilla aus Stein befindet sich in Gajana, einem ruhigen Ort in der Nähe von Vodnjan (Dignano). Diese 7-Schlafzimmer-Villa (mit eigenem Bad in jedem Schlafzimmer) ist perfekt für Naturliebhaber, die sich gerne fernab vom Stadtlärm entspannen. Sie hat ihren Gästen viel zu bieten.",
+    "des": "Villa Panorama ist eine luxuriöse Ferienvilla in Gajana, Istrien, mit atemberaubendem Panorama-Meerblick von der großen Terrasse. Umgeben von Natur in völliger Ruhe liegt diese 520m²-Villa auf einem 2500m²-Grundstück mit 68m²-Pool mit Luftmassage und Wasserfall, Whirlpool, Sauna, Fitnessraum und traditionellem istrischen Kazun mit Grill. 7 Schlafzimmer für bis zu 16 Gäste. Unterhaltung: Karaoke, Billard, Darts, Tischfußball, 8 Fahrräder, Trampolin und Fußballtore. Nahe Nationalpark Brijuni. Nichtraucher-Villa. Keine Haustiere.",
     "subtitle": "Der Raum",
     "des2": "Es gibt einen Außenpool (68 m2) mit der Möglichkeit einer Luftmassage und eines Wasserfalls an der Seite des Pools. Ein geräumiger Rasen bietet einen Spielplatz für Kinder mit Trampolin und Fußballtoren. Neben dem Pool befindet sich eine Nachbildung eines alten istrischen Hauses namens \"Kazun\", das Grillmöglichkeiten bietet. Die schöne Terrasse ist ein perfekter Ort, um Ihre Mahlzeit zu genießen. Ein weiterer Ort zum Essen ist eine Sommerküche, die sich in einem Spielzimmer mit Darts, Billardtisch und Tischfußball befindet. Neben der Villa befindet sich ein Beauty-Raum mit Sauna, Whirlpool und Trainingsgeräten. Die Villa verfügt über ein Überwachungssystem, das die Umgebung der Villa aufzeichnet und die Sicherheit ihrer Gäste gewährleistet. Die Villa bietet Platz für 16 Personen. In der Villa gibt es 7 Schlafzimmer. In 3 Schlafzimmern gibt es Kingsize-Betten, und jedes davon bietet Platz für 2 Personen. In den anderen Schlafzimmern (4 Stück) befinden sich jeweils 2 Einzelbetten. Jemand kann auch auf den Sofas im Wohnzimmer schlafen, wenn er möchte.",
     "subtitle2": "Zugang für Gäste",

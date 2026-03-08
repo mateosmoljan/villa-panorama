@@ -5,7 +5,7 @@ import { Arbutus_Slab, Poppins } from "next/font/google";
 import Navbar from "@/components/Navigation/Navbar";
 import Footer from "@/components/Footer/Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
-import { OG_IMAGE, SITE_NAME, SITE_URL } from "@/lib/seo";
+import { getVacationRentalJsonLd, OG_IMAGE, SITE_NAME, SITE_URL } from "@/lib/seo";
 
 const arbutus = Arbutus_Slab({
   subsets: ["latin"],
@@ -68,21 +68,7 @@ export default function RootLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  const ldJson = {
-    "@context": "https://schema.org",
-    "@type": "LodgingBusiness",
-    name: "Villa Panorama",
-    url: SITE_URL,
-    image: [OG_IMAGE],
-    description:
-      "Luxury vacation villa in Istria with private pool and premium amenities.",
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: "Istria",
-      addressCountry: "HR",
-    },
-    sameAs: [SITE_URL],
-  };
+  const ldJson = getVacationRentalJsonLd(locale);
 
   return (
     <html lang={locale}>
