@@ -50,10 +50,7 @@ function ContactForm() {
         </div>
 
         <div className="flex flex-col sm:flex-row w-full items-end">
-          <div className="w-full sm:w-1/2 px-2 mb-4">
-            <label className="mb-1 block text-sm font-Bold">Phone</label>
-            <input required name="phone" type="tel" className="w-full bg-white rounded-md border border-gray-300 h-10 px-3" />
-          </div>
+          
           <div className="w-full sm:w-1/2 mb-4 px-2">
             <HolidayHome />
           </div>
