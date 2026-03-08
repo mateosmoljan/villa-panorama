@@ -5,13 +5,16 @@ function Children() {
 
   return (
     <div className="w-full">
-      <label className="mb-1 block font-Bold text-sm">Children</label>
+      <label htmlFor="children" className="block mb-1 text-sm font-Bold text-grey3">
+        Children
+      </label>
       <select
         required
+        id="children"
         name="children"
         value={children}
         onChange={(e) => setChildren(e.target.value)}
-        className="w-full h-10 rounded-md border border-gray-300 bg-white px-3"
+        className="w-full bg-white border border-gray-300 rounded-md px-3 py-[9px] text-sm font-Bold text-grey3"
       >
         {Array.from({ length: 15 }, (_, i) => i).map((v) => (
           <option key={v} value={v}>
