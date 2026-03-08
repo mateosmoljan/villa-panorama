@@ -8,26 +8,27 @@ import { Navigation, Autoplay, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 
 function TouristSwiper() {
   const localeActive = useLocale();
   const PhotogalleriesData = getTouristGuideData(localeActive);
 
   return (
-    <div className="tourist-guide max-w-full">
+    <div className="tourist-guide max-w-full relative">
       <Swiper
         modules={[Navigation, Autoplay, Pagination]}
-        navigation
-        autoplay={{ delay: 10000, pauseOnMouseEnter: true }}
+        navigation={{ nextEl: ".tourist-next", prevEl: ".tourist-prev" }}
+        autoplay={{ delay: 10000, pauseOnMouseEnter: true, disableOnInteraction: false }}
         loop
         speed={500}
         slidesPerView={4}
         spaceBetween={12}
         pagination={{ clickable: true }}
         breakpoints={{
-          0: { slidesPerView: 1, navigation: false },
-          640: { slidesPerView: 2, navigation: false },
-          1024: { slidesPerView: 4, navigation: true },
+          0: { slidesPerView: 1 },
+          640: { slidesPerView: 2 },
+          1024: { slidesPerView: 4 },
         }}
       >
         {PhotogalleriesData.data.slice(0, 6).map((image, index) => (
@@ -54,6 +55,13 @@ function TouristSwiper() {
           </SwiperSlide>
         ))}
       </Swiper>
+
+      <button className="tourist-prev hidden md:flex absolute left-2 top-1/2 z-20 -translate-y-1/2 items-center justify-center rounded-full bg-black/50 p-2 text-white hover:bg-black/70 transition">
+        <IoIosArrowBack className="text-2xl" />
+      </button>
+      <button className="tourist-next hidden md:flex absolute right-2 top-1/2 z-20 -translate-y-1/2 items-center justify-center rounded-full bg-black/50 p-2 text-white hover:bg-black/70 transition">
+        <IoIosArrowForward className="text-2xl" />
+      </button>
     </div>
   );
 }
