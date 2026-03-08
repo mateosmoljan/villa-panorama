@@ -87,14 +87,14 @@ export default function RootLayout({
   return (
     <html lang={locale}>
       <body
-        className={`${poppins.variable} font-poppins ${arbutus.variable} font-arbutus`}
+        className={`${poppins.variable} font-poppins ${arbutus.variable} font-arbutus min-h-screen flex flex-col`}
       >
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(ldJson) }}
         />
         <Navbar />
-        {children}
+        <div className="flex-1 flex flex-col">{children}</div>
         <Footer />
         {process.env.NEXT_PUBLIC_MEASUREMENT_ID ? (
           <GoogleAnalytics gaId={process.env.NEXT_PUBLIC_MEASUREMENT_ID} />
