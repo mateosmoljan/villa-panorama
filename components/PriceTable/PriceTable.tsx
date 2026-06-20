@@ -52,7 +52,6 @@ const calendarCopy = {
     thisMonth: "This month",
     selectMonth: "Select month",
     selectYear: "Select year",
-    availabilityNote: "Availability will be added in the next phase. For now, the calendar shows prices only.",
   },
   de: {
     title: "Tagespreis-Kalender",
@@ -64,7 +63,6 @@ const calendarCopy = {
     thisMonth: "Dieser Monat",
     selectMonth: "Monat auswählen",
     selectYear: "Jahr auswählen",
-    availabilityNote: "Verfügbarkeiten werden in der nächsten Phase ergänzt. Der Kalender zeigt vorerst nur Preise.",
   },
   hr: {
     title: "Kalendar dnevnih cijena",
@@ -76,7 +74,6 @@ const calendarCopy = {
     thisMonth: "Ovaj mjesec",
     selectMonth: "Odaberite mjesec",
     selectYear: "Odaberite godinu",
-    availabilityNote: "Dostupnost ćemo dodati u sljedećoj fazi. Za sada kalendar prikazuje samo cijene.",
   },
   it: {
     title: "Calendario prezzi giornalieri",
@@ -88,7 +85,6 @@ const calendarCopy = {
     thisMonth: "Questo mese",
     selectMonth: "Seleziona mese",
     selectYear: "Seleziona anno",
-    availabilityNote: "La disponibilità verrà aggiunta nella prossima fase. Per ora il calendario mostra solo i prezzi.",
   },
 };
 
@@ -330,10 +326,6 @@ export default function PriceTable() {
             )
           )}
         </div>
-
-        <p className="mt-4 text-xs text-gray-500">
-          {copy.availabilityNote}
-        </p>
       </section>
     </div>
   );
