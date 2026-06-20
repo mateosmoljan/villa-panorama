@@ -42,8 +42,11 @@ const calendarCopy = {
   en: {
     title: "Daily price calendar",
     description: "Choose a month and year to see the price for every day.",
-    previous: "Previous",
-    next: "Next",
+    previous: "Previous month",
+    next: "Next month",
+    previousYear: "Previous year",
+    nextYear: "Next year",
+    thisMonth: "This month",
     selectMonth: "Select month",
     selectYear: "Select year",
     availabilityNote: "Availability will be added in the next phase. For now, the calendar shows prices only.",
@@ -51,8 +54,11 @@ const calendarCopy = {
   de: {
     title: "Tagespreis-Kalender",
     description: "Wählen Sie Monat und Jahr, um den Preis für jeden Tag zu sehen.",
-    previous: "Zurück",
-    next: "Weiter",
+    previous: "Vorheriger Monat",
+    next: "Nächster Monat",
+    previousYear: "Vorheriges Jahr",
+    nextYear: "Nächstes Jahr",
+    thisMonth: "Dieser Monat",
     selectMonth: "Monat auswählen",
     selectYear: "Jahr auswählen",
     availabilityNote: "Verfügbarkeiten werden in der nächsten Phase ergänzt. Der Kalender zeigt vorerst nur Preise.",
@@ -60,8 +66,11 @@ const calendarCopy = {
   hr: {
     title: "Kalendar dnevnih cijena",
     description: "Odaberite mjesec i godinu kako biste vidjeli cijenu za svaki dan.",
-    previous: "Prethodno",
-    next: "Sljedeće",
+    previous: "Prethodni mjesec",
+    next: "Sljedeći mjesec",
+    previousYear: "Prethodna godina",
+    nextYear: "Sljedeća godina",
+    thisMonth: "Ovaj mjesec",
     selectMonth: "Odaberite mjesec",
     selectYear: "Odaberite godinu",
     availabilityNote: "Dostupnost ćemo dodati u sljedećoj fazi. Za sada kalendar prikazuje samo cijene.",
@@ -69,8 +78,11 @@ const calendarCopy = {
   it: {
     title: "Calendario prezzi giornalieri",
     description: "Scegli mese e anno per vedere il prezzo di ogni giorno.",
-    previous: "Precedente",
-    next: "Successivo",
+    previous: "Mese precedente",
+    next: "Mese successivo",
+    previousYear: "Anno precedente",
+    nextYear: "Anno successivo",
+    thisMonth: "Questo mese",
     selectMonth: "Seleziona mese",
     selectYear: "Seleziona anno",
     availabilityNote: "La disponibilità verrà aggiunta nella prossima fase. Per ora il calendario mostra solo i prezzi.",
@@ -148,9 +160,12 @@ export default function PriceTable() {
     () => buildCalendarDays(selectedYear, selectedMonth),
     [selectedMonth, selectedYear]
   );
+  const selectedMonthLabel = monthLabels[selectedMonth];
 
   const canGoPrevious = selectedYear > currentYear || selectedMonth > 0;
   const canGoNext = selectedYear < currentYear + 1 || selectedMonth < 11;
+  const canGoPreviousYear = selectedYear > currentYear;
+  const canGoNextYear = selectedYear < currentYear + 1;
 
   function goToPreviousMonth() {
     if (!canGoPrevious) return;
@@ -176,58 +191,112 @@ export default function PriceTable() {
     setSelectedMonth((month) => month + 1);
   }
 
+  function goToPreviousYear() {
+    if (!canGoPreviousYear) return;
+    setSelectedYear((year) => year - 1);
+  }
+
+  function goToNextYear() {
+    if (!canGoNextYear) return;
+    setSelectedYear((year) => year + 1);
+  }
+
+  function goToThisMonth() {
+    setSelectedYear(currentYear);
+    setSelectedMonth(new Date().getMonth());
+  }
+
   return (
     <div className="space-y-8">
       <section className="rounded-md border border-gray-200 bg-white p-4 shadow-sm" aria-label="Daily price calendar">
-        <div className="mb-4 flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-          <div>
+        <div className="mb-5 space-y-4">
+          <div className="text-center">
             <p className="font-titleBold text-xl">{copy.title}</p>
             <p className="text-sm text-gray-600">{copy.description}</p>
           </div>
 
-          <div className="flex flex-wrap items-center gap-2">
-            <button
-              type="button"
-              onClick={goToPreviousMonth}
-              disabled={!canGoPrevious}
-              className="rounded border border-gray-300 px-3 py-2 text-sm font-Bold disabled:cursor-not-allowed disabled:opacity-40"
-              aria-label={copy.previous}
-            >
-              {copy.previous}
-            </button>
-            <select
-              value={selectedMonth}
-              onChange={(event) => setSelectedMonth(Number(event.target.value))}
-              className="rounded border border-gray-300 px-3 py-2 text-sm"
-              aria-label={copy.selectMonth}
-            >
-              {monthLabels.map((month, index) => (
-                <option key={month} value={index}>
-                  {month}
-                </option>
-              ))}
-            </select>
-            <select
-              value={selectedYear}
-              onChange={(event) => setSelectedYear(Number(event.target.value))}
-              className="rounded border border-gray-300 px-3 py-2 text-sm"
-              aria-label={copy.selectYear}
-            >
-              {years.map((year) => (
-                <option key={year} value={year}>
-                  {year}
-                </option>
-              ))}
-            </select>
-            <button
-              type="button"
-              onClick={goToNextMonth}
-              disabled={!canGoNext}
-              className="rounded border border-gray-300 px-3 py-2 text-sm font-Bold disabled:cursor-not-allowed disabled:opacity-40"
-              aria-label={copy.next}
-            >
-              {copy.next}
-            </button>
+          <div className="rounded-2xl border border-gray-200 bg-gray-50 p-3 shadow-sm">
+            <div className="flex items-center justify-between gap-2">
+              <button
+                type="button"
+                onClick={goToPreviousMonth}
+                disabled={!canGoPrevious}
+                className="flex h-11 w-11 items-center justify-center rounded-full border border-gray-300 bg-white text-2xl font-ExtraBold shadow-sm transition hover:bg-gray-100 disabled:cursor-not-allowed disabled:opacity-35"
+                aria-label={copy.previous}
+              >
+                ‹
+              </button>
+
+              <div className="min-w-0 flex-1 text-center">
+                <div className="font-titleBold text-2xl capitalize text-gray-950">
+                  {selectedMonthLabel} {selectedYear}
+                </div>
+                <div className="mt-2 flex flex-wrap justify-center gap-2">
+                  <button
+                    type="button"
+                    onClick={goToPreviousYear}
+                    disabled={!canGoPreviousYear}
+                    className="rounded-full border border-gray-300 bg-white px-3 py-1 text-xs font-Bold shadow-sm transition hover:bg-gray-100 disabled:cursor-not-allowed disabled:opacity-35"
+                    aria-label={copy.previousYear}
+                  >
+                    « {selectedYear - 1}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={goToThisMonth}
+                    className="rounded-full bg-gray-900 px-3 py-1 text-xs font-Bold text-white shadow-sm transition hover:bg-gray-700"
+                  >
+                    {copy.thisMonth}
+                  </button>
+                  <button
+                    type="button"
+                    onClick={goToNextYear}
+                    disabled={!canGoNextYear}
+                    className="rounded-full border border-gray-300 bg-white px-3 py-1 text-xs font-Bold shadow-sm transition hover:bg-gray-100 disabled:cursor-not-allowed disabled:opacity-35"
+                    aria-label={copy.nextYear}
+                  >
+                    {selectedYear + 1} »
+                  </button>
+                </div>
+              </div>
+
+              <button
+                type="button"
+                onClick={goToNextMonth}
+                disabled={!canGoNext}
+                className="flex h-11 w-11 items-center justify-center rounded-full border border-gray-300 bg-white text-2xl font-ExtraBold shadow-sm transition hover:bg-gray-100 disabled:cursor-not-allowed disabled:opacity-35"
+                aria-label={copy.next}
+              >
+                ›
+              </button>
+            </div>
+
+            <div className="mt-3 grid grid-cols-2 gap-2 sm:grid-cols-[1fr_110px]">
+              <select
+                value={selectedMonth}
+                onChange={(event) => setSelectedMonth(Number(event.target.value))}
+                className="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm capitalize shadow-sm"
+                aria-label={copy.selectMonth}
+              >
+                {monthLabels.map((month, index) => (
+                  <option key={month} value={index}>
+                    {month}
+                  </option>
+                ))}
+              </select>
+              <select
+                value={selectedYear}
+                onChange={(event) => setSelectedYear(Number(event.target.value))}
+                className="rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm shadow-sm"
+                aria-label={copy.selectYear}
+              >
+                {years.map((year) => (
+                  <option key={year} value={year}>
+                    {year}
+                  </option>
+                ))}
+              </select>
+            </div>
           </div>
         </div>
 
